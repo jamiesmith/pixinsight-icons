@@ -3,7 +3,7 @@
 ********************************************************************
 PixInsight XML Process Serialization Module - XPSM 1.0
 ********************************************************************
-Generated on 2024-11-05T17:44:07.664Z
+Generated on 2024-11-05T17:44:52.556Z
 PixInsight Core 1.8.9-3 (x64)
 Copyright (c) 2003-2024 Pleiades Astrophoto
 ********************************************************************
@@ -884,33 +884,33 @@ Copyright (c) 2003-2024 Pleiades Astrophoto
       <description>This is the standard SHO process</description>
       <time start="2024-10-29T19:19:39.522Z" span="2.094e-06"/>
    </instance>
-   <icon id="Crop" instance="Crop_instance" xpos="2569" ypos="163" workspace="Workspace01"/>
-   <icon id="BlurX_CorrectOnly" instance="BlurX_CorrectOnly_instance" xpos="2569" ypos="379" workspace="Workspace01"/>
-   <icon id="SPCC_RGB_ASG" instance="SPCC_RGB_ASG_instance" xpos="2569" ypos="460" workspace="Workspace01"/>
-   <icon id="FixMagentaStars" instance="FixMagentaStars_instance" xpos="2569" ypos="541" workspace="Workspace01"/>
-   <icon id="StarX" instance="StarX_instance" xpos="2569" ypos="595" workspace="Workspace01"/>
-   <icon id="GHS_for_starless" instance="GHS_for_starless_instance" xpos="2569" ypos="649" workspace="Workspace01"/>
-   <icon id="BkgdNeutral_MAYBE" instance="BkgdNeutral_MAYBE_instance" xpos="2569" ypos="757" workspace="Workspace01"/>
-   <icon id="Opt_CurvesForStars" instance="Opt_CurvesForStars_instance" xpos="2569" ypos="703" workspace="Workspace01"/>
-   <icon id="Opt_SaturateStars" instance="Opt_SaturateStars_instance" xpos="2569" ypos="730" workspace="Workspace01"/>
-   <icon id="SmartRenameViews" instance="SmartRenameViews_instance" xpos="2569" ypos="28" workspace="Workspace01"/>
-   <icon id="RGB_Combo" instance="RGB_Combo_instance" xpos="2569" ypos="190" workspace="Workspace01"/>
-   <icon id="Rename_RGB" instance="Rename_RGB_instance" xpos="2569" ypos="217" workspace="Workspace01"/>
-   <icon id="STF" instance="STF_instance" xpos="2569" ypos="82" workspace="Workspace01"/>
-   <icon id="GradientCorrection" instance="GradientCorrection_instance" xpos="2569" ypos="352" workspace="Workspace01"/>
-   <icon id="AutoDBE_SetiAstro" instance="AutoDBE_SetiAstro_instance" xpos="2569" ypos="298" workspace="Workspace01"/>
-   <icon id="ResizeAndStretch" instance="ResizeAndStretch_instance" xpos="2569" ypos="55" workspace="Workspace01"/>
-   <icon id="PlateSolveForSCC" instance="PlateSolveForSCC_instance" xpos="2569" ypos="406" workspace="Workspace01"/>
-   <icon id="SPCC_RGB_PF" instance="SPCC_RGB_PF_instance" xpos="2569" ypos="433" workspace="Workspace01"/>
-   <icon id="BlurX_Full" instance="BlurX_Full_instance" xpos="2569" ypos="487" workspace="Workspace01"/>
-   <icon id="NoiseX_TWEAK" instance="NoiseX_TWEAK_instance" xpos="2569" ypos="568" workspace="Workspace01"/>
-   <icon id="Gradient_Removal" instance="Gradient_Removal_instance" xpos="2569" ypos="271" workspace="Workspace01"/>
-   <icon id="GraXpert" instance="GraXpert_instance" xpos="2569" ypos="325" workspace="Workspace01"/>
-   <icon id="Run_AutoLinearFit" instance="Run_AutoLinearFit_instance" xpos="2569" ypos="244" workspace="Workspace01"/>
-   <icon id="STF2HT_Stars" instance="STF2HT_Stars_instance" xpos="2569" ypos="622" workspace="Workspace01"/>
-   <icon id="renameRGB_Starless" instance="renameRGB_Starless_instance" xpos="2569" ypos="514" workspace="Workspace01"/>
-   <icon id="Opt_ShrinkStars" instance="Opt_ShrinkStars_instance" xpos="2569" ypos="676" workspace="Workspace01"/>
-   <icon id="__RGB_workflow__" instance="__RGB_workflow___instance" xpos="2569" ypos="136" workspace="Workspace01"/>
-   <icon id="__GLOBAL_UTILS__" instance="__GLOBAL_UTILS___instance" xpos="2569" ypos="1" workspace="Workspace01"/>
-   <icon id="____________________" instance="_____________________instance" xpos="2569" ypos="109" workspace="Workspace01"/>
+   <icon id="Crop" instance="Crop_instance" xpos="2558" ypos="163" workspace="Workspace01"/>
+   <icon id="BlurX_CorrectOnly" instance="BlurX_CorrectOnly_instance" xpos="2558" ypos="379" workspace="Workspace01"/>
+   <icon id="SPCC_RGB_ASG" instance="SPCC_RGB_ASG_instance" xpos="2558" ypos="460" workspace="Workspace01"/>
+   <icon id="FixMagentaStars" instance="FixMagentaStars_instance" xpos="2558" ypos="541" workspace="Workspace01"/>
+   <icon id="StarX" instance="StarX_instance" xpos="2558" ypos="595" workspace="Workspace01"/>
+   <icon id="GHS_for_starless" instance="GHS_for_starless_instance" xpos="2558" ypos="649" workspace="Workspace01"/>
+   <icon id="BkgdNeutral_MAYBE" instance="BkgdNeutral_MAYBE_instance" xpos="2558" ypos="757" workspace="Workspace01"/>
+   <icon id="Opt_CurvesForStars" instance="Opt_CurvesForStars_instance" xpos="2558" ypos="703" workspace="Workspace01"/>
+   <icon id="Opt_SaturateStars" instance="Opt_SaturateStars_instance" xpos="2558" ypos="730" workspace="Workspace01"/>
+   <icon id="SmartRenameViews" instance="SmartRenameViews_instance" xpos="2558" ypos="28" workspace="Workspace01"/>
+   <icon id="RGB_Combo" instance="RGB_Combo_instance" xpos="2558" ypos="190" workspace="Workspace01"/>
+   <icon id="Rename_RGB" instance="Rename_RGB_instance" xpos="2558" ypos="217" workspace="Workspace01"/>
+   <icon id="STF" instance="STF_instance" xpos="2558" ypos="82" workspace="Workspace01"/>
+   <icon id="GradientCorrection" instance="GradientCorrection_instance" xpos="2558" ypos="352" workspace="Workspace01"/>
+   <icon id="AutoDBE_SetiAstro" instance="AutoDBE_SetiAstro_instance" xpos="2558" ypos="298" workspace="Workspace01"/>
+   <icon id="ResizeAndStretch" instance="ResizeAndStretch_instance" xpos="2558" ypos="55" workspace="Workspace01"/>
+   <icon id="PlateSolveForSCC" instance="PlateSolveForSCC_instance" xpos="2558" ypos="406" workspace="Workspace01"/>
+   <icon id="SPCC_RGB_PF" instance="SPCC_RGB_PF_instance" xpos="2558" ypos="433" workspace="Workspace01"/>
+   <icon id="BlurX_Full" instance="BlurX_Full_instance" xpos="2558" ypos="487" workspace="Workspace01"/>
+   <icon id="NoiseX_TWEAK" instance="NoiseX_TWEAK_instance" xpos="2558" ypos="568" workspace="Workspace01"/>
+   <icon id="Gradient_Removal" instance="Gradient_Removal_instance" xpos="2558" ypos="271" workspace="Workspace01"/>
+   <icon id="GraXpert" instance="GraXpert_instance" xpos="2558" ypos="325" workspace="Workspace01"/>
+   <icon id="Run_AutoLinearFit" instance="Run_AutoLinearFit_instance" xpos="2558" ypos="244" workspace="Workspace01"/>
+   <icon id="STF2HT_Stars" instance="STF2HT_Stars_instance" xpos="2558" ypos="622" workspace="Workspace01"/>
+   <icon id="renameRGB_Starless" instance="renameRGB_Starless_instance" xpos="2558" ypos="514" workspace="Workspace01"/>
+   <icon id="Opt_ShrinkStars" instance="Opt_ShrinkStars_instance" xpos="2558" ypos="676" workspace="Workspace01"/>
+   <icon id="__RGB_workflow__" instance="__RGB_workflow___instance" xpos="2558" ypos="136" workspace="Workspace01"/>
+   <icon id="__GLOBAL_UTILS__" instance="__GLOBAL_UTILS___instance" xpos="2558" ypos="1" workspace="Workspace01"/>
+   <icon id="____________________" instance="_____________________instance" xpos="2558" ypos="109" workspace="Workspace01"/>
 </xpsm>
