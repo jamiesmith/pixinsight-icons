@@ -36,7 +36,7 @@ and here's what they look like in PixInsight
 ![PixInsight Repositories](/images/manage-repositories.png?raw=true "PixInsight Repositories")
 
 They're not all in my standard flow (for example, I'm hoping to use the EZ suite
-for live stacking)
+for live stacking). Also, note that some of the above repos aren't signed.
 
 ### How they're laid out
 
@@ -45,7 +45,7 @@ columns, with a few "global" icons at the top, with RGB on the left and SHO on
 the right. For me they land on the first workspace. If you can't see them,
 scroll to the right in the workspace, select them, then drag them back. DON'T
 just click on the workspace and arrange icons, or you'll lose the in-order flow
-(DAMHIKT).
+(DAMHIKT). Some of the scripts in the flow don't have new instance icons- for those, there's a `No-Op` placeholder with a description of what to call (for example, the `Script -> Toolbox -> AutoLinearFit` script)
 
 I basically work from top to bottom.
 
@@ -57,7 +57,7 @@ The Lukomatico/Bill has a similarly compact layout:
 ### Compact Spacing
 If you're curious how I got the icons to be so close together I'll tell you the
 secret. I spent a lot of time looking for one simple setting: the icon
-spacing. I set it to zero, on the `Edit | Global Preferences` page:
+spacing. I set it to zero, on the `Edit -> Global Preferences` page:
 
 ![Nice and tidy](/images/grid-spacing.png?raw=true "Compact workflow")
 
