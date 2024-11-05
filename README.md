@@ -49,11 +49,10 @@ just click on the workspace and arrange icons, or you'll lose the in-order flow
 
 I basically work from top to bottom.
 
-![Processing Workflows](/images/rgb-and-sho-workflows.png?raw=true "Processing Workflows")
-<img src="/images/rgb-and-sho-workflows.png?raw=true" width="80">
+<img src="/images/rgb-and-sho-workflows.png?raw=true" width="500" alt="Processing Workflows">
 
 The Lukomatico/Bill has a similarly compact layout:
-![Lukomatico/Bill icons](/images/lukomatico-and-bill.png?raw=true "Lukomatico/Bill icons")
+<img src="/images/lukomatico-and-bill.png?raw=true" width="300" alt="Lukomatico/Bill icons">
 
 ### Compact Spacing
 If you're curious how I got the icons to be so close together I'll tell you the
