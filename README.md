@@ -1,4 +1,4 @@
-# PixInsight Process Icons
+# PixInsight Process Icons from theAstroShed
 
 :wave: These are the process icons that I use for my RGB and SHO image processing workflows.
 
@@ -11,6 +11,11 @@ watch the video.
 - `FromLukeAndBill.xpsm`
 
 You can download these as a zip file, or clone (or fork) the repo
+
+If you want to see some of my (few) images, check out my page on
+[Astrobin](http://www.astrobin.com/users/jamiesmithnc/), and if you
+want to read a little more about the gear, trials, and tribulations, 
+you can check out my blog on [theAstroShed](https://www.theastroshed.com/).
 
 ### Repositories
 These are the repositories that I have configured (in addition to the core PI repos):
