@@ -34,7 +34,7 @@ These are the repositories that I have configured (in addition to the core PI re
 
 and here's what they look like in PixInsight:
 
-<img src="/images/manage-repositories.png?raw=true" width="400" alt="Processing Repositories">
+<img src="/images/manage-repositories.png?raw=true" width="600" alt="Processing Repositories">
 
 They're not all in my standard flow (for example, I'm hoping to use the EZ suite
 for live stacking). Also, note that some of the above repos aren't signed.
@@ -63,7 +63,7 @@ If you're curious how I got the icons to be so close together I'll tell you the
 secret. I spent a lot of time looking for one simple setting: the icon
 spacing. I set it to zero, on the `Edit -> Global Preferences` page:
 
-<img src="/images/grid-spacing.png?raw=true" width="400" alt="Nice and tidy compact workflow">
+<img src="/images/grid-spacing.png?raw=true" width="600" alt="Nice and tidy compact workflow">
 
 Drop an issue if you, well, run into any issues, or just to let me know if you
 use these or learned anything from them :grinning:
