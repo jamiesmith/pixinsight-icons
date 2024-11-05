@@ -33,7 +33,7 @@ These are the repositories that I have configured (in addition to the core PI re
 - `https://www.skypixels.at/HVB_Repository/`
 
 and here's what they look like in PixInsight
-![PixInsight Repositories](/images/manage-repositories.png?raw=true "PixInsight Repositories")
+<img src="/images/manage-repositories.png?raw=true" width="400" alt="Processing Repositories">
 
 They're not all in my standard flow (for example, I'm hoping to use the EZ suite
 for live stacking). Also, note that some of the above repos aren't signed.
@@ -49,17 +49,18 @@ just click on the workspace and arrange icons, or you'll lose the in-order flow
 
 I basically work from top to bottom.
 
-<img src="/images/rgb-and-sho-workflows.png?raw=true" width="500" alt="Processing Workflows">
+<img src="/images/rgb-and-sho-workflows.png?raw=true" width="400" alt="Processing Workflows">
 
 The Lukomatico/Bill has a similarly compact layout:
-<img src="/images/lukomatico-and-bill.png?raw=true" width="300" alt="Lukomatico/Bill icons">
+
+<img src="/images/lukomatico-and-bill.png?raw=true" width="400" alt="Lukomatico/Bill icons">
 
 ### Compact Spacing
 If you're curious how I got the icons to be so close together I'll tell you the
 secret. I spent a lot of time looking for one simple setting: the icon
 spacing. I set it to zero, on the `Edit -> Global Preferences` page:
 
-![Nice and tidy](/images/grid-spacing.png?raw=true "Compact workflow")
+<img src="/images/grid-spacing.png?raw=true" width="400" alt="Nice and tidy compact workflow">
 
 Drop an issue if you, well, run into any issues, or just to let me know if you
 use these or learned anything from them :grinning:
