@@ -32,13 +32,15 @@ These are the repositories that I have configured (in addition to the core PI re
 - `https://www.rc-astro.com/resources/StarXTerminator/PixInsight/`
 - `https://www.skypixels.at/HVB_Repository/`
 
-and here's what they look like in PixInsight
+and here's what they look like in PixInsight:
+
 <img src="/images/manage-repositories.png?raw=true" width="400" alt="Processing Repositories">
 
 They're not all in my standard flow (for example, I'm hoping to use the EZ suite
 for live stacking). Also, note that some of the above repos aren't signed.
 
-### How they're laid out
+## How they're laid out
+### General RGB/SHO Workflows
 
 This is what the RGB & SHO workflow sets look like loaded. They're arranged in
 columns, with a few "global" icons at the top, with RGB on the left and SHO on
@@ -51,6 +53,7 @@ I basically work from top to bottom.
 
 <img src="/images/rgb-and-sho-workflows.png?raw=true" width="400" alt="Processing Workflows">
 
+### Lukomatico & Bill's
 The Lukomatico/Bill has a similarly compact layout:
 
 <img src="/images/lukomatico-and-bill.png?raw=true" width="400" alt="Lukomatico/Bill icons">
