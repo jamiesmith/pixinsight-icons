@@ -1,6 +1,6 @@
 # PixInsight Process Icons
 
-The process icons that I use for RGB and SHO workflows.
+:wave: These are the process icons that I use for my RGB and SHO image processing workflows.
 
 Several of the icons are from [lukomatico and Bill
 Blanshan](https://www.youtube.com/watch?v=SQmFFkF6XhM). Make sure to
@@ -32,7 +32,7 @@ These are the repositories that I have configured (in addition to the core PI re
 - https://www.rc-astro.com/resources/StarXTerminator/PixInsight/
 - https://www.skypixels.at/HVB_Repository/
 
-Here's what it looks like in PixInsight
+and here's what they look like in PixInsight
 ![PixInsight Repositories](/images/manage-repositories.png?raw=true "PixInsight Repositories")
 
 They're not all in my standard flow (for example, I'm hoping to use the EZ suite
@@ -62,4 +62,6 @@ spacing. I set it to zero, on the `Edit | Global Preferences` page:
 ![Nice and tidy](/images/grid-spacing.png?raw=true "Compact workflow")
 
 Drop an issue if you, well, run into any issues, or just to let me know if you
-use these or learned anything from them :)
+use these or learned anything from them :grinning:
+
+In the meantime, live long and prosper :vulcan_salute:
