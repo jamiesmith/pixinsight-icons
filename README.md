@@ -50,6 +50,7 @@ just click on the workspace and arrange icons, or you'll lose the in-order flow
 I basically work from top to bottom.
 
 ![Processing Workflows](/images/rgb-and-sho-workflows.png?raw=true "Processing Workflows")
+<img src="/images/rgb-and-sho-workflows.png?raw=true" width="80">
 
 The Lukomatico/Bill has a similarly compact layout:
 ![Lukomatico/Bill icons](/images/lukomatico-and-bill.png?raw=true "Lukomatico/Bill icons")
