@@ -6,31 +6,31 @@ Several of the icons are from [lukomatico and Bill
 Blanshan](https://www.youtube.com/watch?v=SQmFFkF6XhM). Make sure to
 watch the video.
 
-- RGB-Workflow.xpsm
-- SHO-Workflow.xpsm
-- FromLukeAndBill.xpsm
+- `RGB-Workflow.xpsm`
+- `SHO-Workflow.xpsm`
+- `FromLukeAndBill.xpsm`
 
 You can download these as a zip file, or clone (or fork) the repo
 
 ### Repositories
 These are the repositories that I have configured (in addition to the core PI repos):
 
-- https://raw.githubusercontent.com/jamiesmith/pixinsight-repo/main/
-- https://elveteek.ch/pixinsight-updates/ez-processing-suite/
-- https://foraxxpaletteutility.com/FPU/
-- https://raw.githubusercontent.com/jamiesmith/pixinsight-repo/main/
-- https://raw.githubusercontent.com/setiastro/pixinsight-updates/main/
-- https://www.cosmicphotons.com/pi-modules/narrowbandnormalization/
-- https://www.cosmicphotons.com/pi-scripts/bfke/
-- https://www.cosmicphotons.com/pi-scripts/imageblend/
-- https://www.cosmicphotons.com/pi-scripts/nbcolourmapper/
-- https://www.cosmicphotons.com/pi-scripts/starreduction/
-- https://www.ghsastro.co.uk/updates/
-- https://www.ideviceapps.de/PixInsight/Utilities/
-- https://www.rc-astro.com/BlurXTerminator/PixInsight/
-- https://www.rc-astro.com/NoiseXTerminator/PixInsight/
-- https://www.rc-astro.com/resources/StarXTerminator/PixInsight/
-- https://www.skypixels.at/HVB_Repository/
+- `https://raw.githubusercontent.com/jamiesmith/pixinsight-repo/main/`
+- `https://elveteek.ch/pixinsight-updates/ez-processing-suite/`
+- `https://foraxxpaletteutility.com/FPU/`
+- `https://raw.githubusercontent.com/jamiesmith/pixinsight-repo/main/`
+- `https://raw.githubusercontent.com/setiastro/pixinsight-updates/main/`
+- `https://www.cosmicphotons.com/pi-modules/narrowbandnormalization/`
+- `https://www.cosmicphotons.com/pi-scripts/bfke/`
+- `https://www.cosmicphotons.com/pi-scripts/imageblend/`
+- `https://www.cosmicphotons.com/pi-scripts/nbcolourmapper/`
+- `https://www.cosmicphotons.com/pi-scripts/starreduction/`
+- `https://www.ghsastro.co.uk/updates/`
+- `https://www.ideviceapps.de/PixInsight/Utilities/`
+- `https://www.rc-astro.com/BlurXTerminator/PixInsight/`
+- `https://www.rc-astro.com/NoiseXTerminator/PixInsight/`
+- `https://www.rc-astro.com/resources/StarXTerminator/PixInsight/`
+- `https://www.skypixels.at/HVB_Repository/`
 
 and here's what they look like in PixInsight
 ![PixInsight Repositories](/images/manage-repositories.png?raw=true "PixInsight Repositories")
