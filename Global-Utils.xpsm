@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+********************************************************************
+PixInsight XML Process Serialization Module - XPSM 1.0
+********************************************************************
+Generated on 2024-11-06T12:34:28.591Z
+PixInsight Core 1.8.9-3 (x64)
+Copyright (c) 2003-2024 Pleiades Astrophoto
+********************************************************************
+-->
+<xpsm version="1.0" xmlns="http://www.pixinsight.com/xpsm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.pixinsight.com/xpsm http://pixinsight.com/xpsm/xpsm-1.0.xsd">
+   <instance class="Script" version="256" id="SmartRenameViews_instance">
+      <time start="2024-11-05T17:41:12.548Z" span="1.0878843"/>
+      <parameter id="filePath">$PXI_SRCDIR/scripts/SmartRenameView.js</parameter>
+      <parameter id="md5sum">df3d15b1932abe3a17f3acb64dfa7050</parameter>
+      <table id="parameters" rows="3">
+         <tr>
+            <td id="id">prefix</td>
+            <td id="value"></td>
+         </tr>
+         <tr>
+            <td id="id">suffix</td>
+            <td id="value"></td>
+         </tr>
+         <tr>
+            <td id="id">batchMode</td>
+            <td id="value">true</td>
+         </tr>
+      </table>
+      <parameter id="information"></parameter>
+   </instance>
+   <instance class="ScreenTransferFunction" version="256" id="STF_instance">
+      <table id="STF" rows="4">
+         <tr>
+            <td id="c0" value="0.00391"/>
+            <td id="c1" value="1.00000"/>
+            <td id="m" value="0.00237"/>
+            <td id="r0" value="0.00000"/>
+            <td id="r1" value="1.00000"/>
+         </tr>
+         <tr>
+            <td id="c0" value="0.00407"/>
+            <td id="c1" value="1.00000"/>
+            <td id="m" value="0.00173"/>
+            <td id="r0" value="0.00000"/>
+            <td id="r1" value="1.00000"/>
+         </tr>
+         <tr>
+            <td id="c0" value="0.00382"/>
+            <td id="c1" value="1.00000"/>
+            <td id="m" value="0.00263"/>
+            <td id="r0" value="0.00000"/>
+            <td id="r1" value="1.00000"/>
+         </tr>
+         <tr>
+            <td id="c0" value="0.00000"/>
+            <td id="c1" value="1.00000"/>
+            <td id="m" value="0.50000"/>
+            <td id="r0" value="0.00000"/>
+            <td id="r1" value="1.00000"/>
+         </tr>
+      </table>
+      <parameter id="interaction" value="SeparateChannels"/>
+   </instance>
+   <instance class="Script" version="256" id="ResizeAndStretchVisible_instance">
+      <time start="2024-11-05T17:41:15.282Z" span="4.2213082"/>
+      <parameter id="filePath">$PXI_SRCDIR/scripts/FixTiledZoom.js</parameter>
+      <parameter id="md5sum">281d1f8e8bb1ffd789e190ff8a90f894</parameter>
+      <table id="parameters" rows="2">
+         <tr>
+            <td id="id">zoom</td>
+            <td id="value">9</td>
+         </tr>
+         <tr>
+            <td id="id">autoZoom</td>
+            <td id="value">true</td>
+         </tr>
+      </table>
+      <parameter id="information"></parameter>
+   </instance>
+   <instance class="NoOperation" version="256" id="__GLOBAL_UTILS___instance">
+      <description>This is the standard SHO process</description>
+      <time start="2024-10-29T19:19:39.522Z" span="2.094e-06"/>
+   </instance>
+   <instance class="NoOperation" version="256" id="_____________________________________________________________instance">
+      <description>This is the standard SHO process</description>
+      <time start="2024-10-29T19:19:39.522Z" span="2.094e-06"/>
+   </instance>
+   <icon id="SmartRenameViews" instance="SmartRenameViews_instance" xpos="2558" ypos="28" workspace="Workspace01"/>
+   <icon id="STF" instance="STF_instance" xpos="2558" ypos="82" workspace="Workspace01"/>
+   <icon id="ResizeAndStretchVisible" instance="ResizeAndStretchVisible_instance" xpos="2558" ypos="55" workspace="Workspace01"/>
+   <icon id="__GLOBAL_UTILS__" instance="__GLOBAL_UTILS___instance" xpos="2558" ypos="1" workspace="Workspace01"/>
+   <icon id="____________________________________________________________" instance="_____________________________________________________________instance" xpos="2558" ypos="109" workspace="Workspace01"/>
+</xpsm>

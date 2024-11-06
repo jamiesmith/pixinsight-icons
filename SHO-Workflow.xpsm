@@ -3,7 +3,7 @@
 ********************************************************************
 PixInsight XML Process Serialization Module - XPSM 1.0
 ********************************************************************
-Generated on 2024-10-29T19:43:39.160Z
+Generated on 2024-11-06T12:35:00.407Z
 PixInsight Core 1.8.9-3 (x64)
 Copyright (c) 2003-2024 Pleiades Astrophoto
 ********************************************************************
@@ -732,10 +732,13 @@ g;</parameter>
       <parameter id="clipType" value="CT_RGBBlend"/>
       <parameter id="useRGBWorkingSpace" value="false"/>
    </instance>
-   <instance class="Script" version="256" id="rename_SHO_Starless_instance">
-      <time start="2024-10-29T17:46:24.698Z" span="2.1339708"/>
+   <instance class="NoOperation" version="256" id="__SHO_workflow___instance">
+      <description>This is the standard SHO process</description>
+      <time start="2024-10-29T19:19:39.522Z" span="2.094e-06"/>
+   </instance>
+   <instance class="Script" version="256" id="SHO_AddStarless_2_ID_instance">
       <parameter id="filePath">$PXI_SRCDIR/scripts/AppendPrefixSuffix.js</parameter>
-      <parameter id="md5sum">a8feb04286853929466e09e783f86e40</parameter>
+      <parameter id="md5sum">fe726bbf981fabde5d83f1dc892b5026</parameter>
       <table id="parameters" rows="2">
          <tr>
             <td id="id">prefix</td>
@@ -748,39 +751,34 @@ g;</parameter>
       </table>
       <parameter id="information"></parameter>
    </instance>
-   <instance class="NoOperation" version="256" id="__SHO_workflow___instance">
-      <description>This is the standard SHO process
-</description>
-      <time start="2024-10-29T19:19:39.522Z" span="2.094e-06"/>
-   </instance>
-   <icon id="SCNR_if_too_green" instance="SCNR_if_too_green_instance" xpos="2720" ypos="595" workspace="Workspace01"/>
-   <icon id="LumMaskForStarless" instance="LumMaskForStarless_instance" xpos="2720" ypos="622" workspace="Workspace01"/>
-   <icon id="HDR_MX_MAYBE" instance="HDR_MX_MAYBE_instance" xpos="2720" ypos="649" workspace="Workspace01"/>
-   <icon id="LocalHistEQ_TWEAK" instance="LocalHistEQ_TWEAK_instance" xpos="2720" ypos="676" workspace="Workspace01"/>
-   <icon id="CurvesForColorAndSat" instance="CurvesForColorAndSat_instance" xpos="2720" ypos="703" workspace="Workspace01"/>
-   <icon id="Scripts_utilities_DSE" instance="Scripts_utilities_DSE_instance" xpos="2720" ypos="568" workspace="Workspace01"/>
-   <icon id="ScreenStars_BLEND_OR" instance="ScreenStars_BLEND_OR_instance" xpos="2720" ypos="730" workspace="Workspace01"/>
-   <icon id="ScreenStars_PixelMath" instance="ScreenStars_PixelMath_instance" xpos="2720" ypos="757" workspace="Workspace01"/>
-   <icon id="NarrowbandNormalization" instance="NarrowbandNormalization_instance" xpos="2720" ypos="352" workspace="Workspace01"/>
-   <icon id="SHO_combo" instance="SHO_combo_instance" xpos="2720" ypos="217" workspace="Workspace01"/>
-   <icon id="Rename_SHO" instance="Rename_SHO_instance" xpos="2720" ypos="298" workspace="Workspace01"/>
-   <icon id="SPCC_SHO_PF" instance="SPCC_SHO_PF_instance" xpos="2720" ypos="406" workspace="Workspace01"/>
-   <icon id="SPCC_SHO_ASG" instance="SPCC_SHO_ASG_instance" xpos="2720" ypos="433" workspace="Workspace01"/>
-   <icon id="ConvertTheGreen" instance="ConvertTheGreen_instance" xpos="2720" ypos="784" workspace="Workspace01"/>
-   <icon id="SHO_combo_PM_A" instance="SHO_combo_PM_A_instance" xpos="2720" ypos="244" workspace="Workspace01"/>
-   <icon id="SHO_combo_PM_B" instance="SHO_combo_PM_B_instance" xpos="2720" ypos="271" workspace="Workspace01"/>
-   <icon id="for_each_in_SHO" instance="for_each_in_SHO_instance" xpos="2720" ypos="28" workspace="Workspace01"/>
-   <icon id="SHO_BlurX_Full" instance="SHO_BlurX_Full_instance" xpos="2720" ypos="55" workspace="Workspace01"/>
-   <icon id="GC_each_SHO" instance="GC_each_SHO_instance" xpos="2720" ypos="163" workspace="Workspace01"/>
-   <icon id="AutoDBE_SetiAstro_each_SHO" instance="AutoDBE_SetiAstro_each_SHO_instance" xpos="2720" ypos="109" workspace="Workspace01"/>
-   <icon id="GraXpert_each_SHO" instance="GraXpert_each_SHO_instance" xpos="2720" ypos="136" workspace="Workspace01"/>
-   <icon id="SHO_Gradient_Removal" instance="SHO_Gradient_Removal_instance" xpos="2720" ypos="82" workspace="Workspace01"/>
-   <icon id="SHO_Combine" instance="SHO_Combine_instance" xpos="2720" ypos="190" workspace="Workspace01"/>
-   <icon id="SHO_OptionalFlow" instance="SHO_OptionalFlow_instance" xpos="2720" ypos="379" workspace="Workspace01"/>
-   <icon id="Run_AutoLinearFit_SHO" instance="Run_AutoLinearFit_SHO_instance" xpos="2720" ypos="325" workspace="Workspace01"/>
-   <icon id="StarX_SHO" instance="StarX_SHO_instance" xpos="2720" ypos="514" workspace="Workspace01"/>
-   <icon id="NoiseX_TWEAK_SHO" instance="NoiseX_TWEAK_SHO_instance" xpos="2720" ypos="487" workspace="Workspace01"/>
-   <icon id="GHS_for_SHO_starless" instance="GHS_for_SHO_starless_instance" xpos="2720" ypos="541" workspace="Workspace01"/>
-   <icon id="rename_SHO_Starless" instance="rename_SHO_Starless_instance" xpos="2720" ypos="460" workspace="Workspace01"/>
-   <icon id="__SHO_workflow__" instance="__SHO_workflow___instance" xpos="2720" ypos="1" workspace="Workspace01"/>
+   <icon id="SCNR_if_too_green" instance="SCNR_if_too_green_instance" xpos="2736" ypos="756" workspace="Workspace01"/>
+   <icon id="LumMaskForStarless" instance="LumMaskForStarless_instance" xpos="2736" ypos="783" workspace="Workspace01"/>
+   <icon id="HDR_MX_MAYBE" instance="HDR_MX_MAYBE_instance" xpos="2736" ypos="810" workspace="Workspace01"/>
+   <icon id="LocalHistEQ_TWEAK" instance="LocalHistEQ_TWEAK_instance" xpos="2736" ypos="837" workspace="Workspace01"/>
+   <icon id="CurvesForColorAndSat" instance="CurvesForColorAndSat_instance" xpos="2736" ypos="864" workspace="Workspace01"/>
+   <icon id="Scripts_utilities_DSE" instance="Scripts_utilities_DSE_instance" xpos="2736" ypos="729" workspace="Workspace01"/>
+   <icon id="ScreenStars_BLEND_OR" instance="ScreenStars_BLEND_OR_instance" xpos="2736" ypos="891" workspace="Workspace01"/>
+   <icon id="ScreenStars_PixelMath" instance="ScreenStars_PixelMath_instance" xpos="2736" ypos="918" workspace="Workspace01"/>
+   <icon id="NarrowbandNormalization" instance="NarrowbandNormalization_instance" xpos="2736" ypos="513" workspace="Workspace01"/>
+   <icon id="SHO_combo" instance="SHO_combo_instance" xpos="2736" ypos="378" workspace="Workspace01"/>
+   <icon id="Rename_SHO" instance="Rename_SHO_instance" xpos="2736" ypos="459" workspace="Workspace01"/>
+   <icon id="SPCC_SHO_PF" instance="SPCC_SHO_PF_instance" xpos="2736" ypos="567" workspace="Workspace01"/>
+   <icon id="SPCC_SHO_ASG" instance="SPCC_SHO_ASG_instance" xpos="2736" ypos="594" workspace="Workspace01"/>
+   <icon id="ConvertTheGreen" instance="ConvertTheGreen_instance" xpos="2736" ypos="945" workspace="Workspace01"/>
+   <icon id="SHO_combo_PM_A" instance="SHO_combo_PM_A_instance" xpos="2736" ypos="405" workspace="Workspace01"/>
+   <icon id="SHO_combo_PM_B" instance="SHO_combo_PM_B_instance" xpos="2736" ypos="432" workspace="Workspace01"/>
+   <icon id="for_each_in_SHO" instance="for_each_in_SHO_instance" xpos="2736" ypos="189" workspace="Workspace01"/>
+   <icon id="SHO_BlurX_Full" instance="SHO_BlurX_Full_instance" xpos="2736" ypos="216" workspace="Workspace01"/>
+   <icon id="GC_each_SHO" instance="GC_each_SHO_instance" xpos="2736" ypos="324" workspace="Workspace01"/>
+   <icon id="AutoDBE_SetiAstro_each_SHO" instance="AutoDBE_SetiAstro_each_SHO_instance" xpos="2736" ypos="270" workspace="Workspace01"/>
+   <icon id="GraXpert_each_SHO" instance="GraXpert_each_SHO_instance" xpos="2736" ypos="297" workspace="Workspace01"/>
+   <icon id="SHO_Gradient_Removal" instance="SHO_Gradient_Removal_instance" xpos="2736" ypos="243" workspace="Workspace01"/>
+   <icon id="SHO_Combine" instance="SHO_Combine_instance" xpos="2736" ypos="351" workspace="Workspace01"/>
+   <icon id="SHO_OptionalFlow" instance="SHO_OptionalFlow_instance" xpos="2736" ypos="540" workspace="Workspace01"/>
+   <icon id="Run_AutoLinearFit_SHO" instance="Run_AutoLinearFit_SHO_instance" xpos="2736" ypos="486" workspace="Workspace01"/>
+   <icon id="StarX_SHO" instance="StarX_SHO_instance" xpos="2736" ypos="675" workspace="Workspace01"/>
+   <icon id="NoiseX_TWEAK_SHO" instance="NoiseX_TWEAK_SHO_instance" xpos="2736" ypos="648" workspace="Workspace01"/>
+   <icon id="GHS_for_SHO_starless" instance="GHS_for_SHO_starless_instance" xpos="2736" ypos="702" workspace="Workspace01"/>
+   <icon id="__SHO_workflow__" instance="__SHO_workflow___instance" xpos="2736" ypos="162" workspace="Workspace01"/>
+   <icon id="SHO_AddStarless_2_ID" instance="SHO_AddStarless_2_ID_instance" xpos="2738" ypos="622" workspace="Workspace01"/>
 </xpsm>
