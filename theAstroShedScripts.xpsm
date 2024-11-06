@@ -3,7 +3,7 @@
 ********************************************************************
 PixInsight XML Process Serialization Module - XPSM 1.0
 ********************************************************************
-Generated on 2024-11-06T12:10:24.129Z
+Generated on 2024-11-06T12:13:24.221Z
 PixInsight Core 1.8.9-3 (x64)
 Copyright (c) 2003-2024 Pleiades Astrophoto
 ********************************************************************
@@ -58,7 +58,7 @@ Copyright (c) 2003-2024 Pleiades Astrophoto
       </table>
       <parameter id="information"></parameter>
    </instance>
-   <icon id="Append_Starless_to_ID" instance="Append_Starless_to_ID_instance" xpos="2559" ypos="71" workspace="Workspace01"/>
-   <icon id="Stretch_and_OptimalZoom_Visible_Images" instance="Stretch_and_OptimalZoom_Visible_Images_instance" xpos="2559" ypos="44" workspace="Workspace01"/>
-   <icon id="Rename_all_as_filter" instance="Rename_all_as_filter_instance" xpos="2559" ypos="17" workspace="Workspace01"/>
+   <icon id="Append_Starless_to_ID" instance="Append_Starless_to_ID_instance" xpos="29" ypos="76" workspace="Workspace01"/>
+   <icon id="Stretch_and_OptimalZoom_Visible_Images" instance="Stretch_and_OptimalZoom_Visible_Images_instance" xpos="29" ypos="49" workspace="Workspace01"/>
+   <icon id="Rename_all_as_filter" instance="Rename_all_as_filter_instance" xpos="29" ypos="22" workspace="Workspace01"/>
 </xpsm>
