@@ -6,6 +6,7 @@ Several of the icons are from [lukomatico and Bill
 Blanshan](https://www.youtube.com/watch?v=SQmFFkF6XhM). Make sure to
 watch the video.
 
+- `theAstroShedScripts.xpsm` (example usage for theAstroShed helper scripts)
 - `RGB-Workflow.xpsm`
 - `SHO-Workflow.xpsm`
 - `FromLukeAndBill.xpsm`

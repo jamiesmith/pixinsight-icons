@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+********************************************************************
+PixInsight XML Process Serialization Module - XPSM 1.0
+********************************************************************
+Generated on 2024-11-06T12:10:24.129Z
+PixInsight Core 1.8.9-3 (x64)
+Copyright (c) 2003-2024 Pleiades Astrophoto
+********************************************************************
+-->
+<xpsm version="1.0" xmlns="http://www.pixinsight.com/xpsm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.pixinsight.com/xpsm http://pixinsight.com/xpsm/xpsm-1.0.xsd">
+   <instance class="Script" version="256" id="Append_Starless_to_ID_instance">
+      <parameter id="filePath">$PXI_SRCDIR/scripts/AppendPrefixSuffix.js</parameter>
+      <parameter id="md5sum">fe726bbf981fabde5d83f1dc892b5026</parameter>
+      <table id="parameters" rows="2">
+         <tr>
+            <td id="id">prefix</td>
+            <td id="value"></td>
+         </tr>
+         <tr>
+            <td id="id">suffix</td>
+            <td id="value">starless</td>
+         </tr>
+      </table>
+      <parameter id="information"></parameter>
+   </instance>
+   <instance class="Script" version="256" id="Stretch_and_OptimalZoom_Visible_Images_instance">
+      <parameter id="filePath">$PXI_SRCDIR/scripts/FixTiledZoom.js</parameter>
+      <parameter id="md5sum">f974b5629ddd389ae22bb17fa348e489</parameter>
+      <table id="parameters" rows="2">
+         <tr>
+            <td id="id">zoom</td>
+            <td id="value">0</td>
+         </tr>
+         <tr>
+            <td id="id">autoZoom</td>
+            <td id="value">true</td>
+         </tr>
+      </table>
+      <parameter id="information"></parameter>
+   </instance>
+   <instance class="Script" version="256" id="Rename_all_as_filter_instance">
+      <parameter id="filePath">$PXI_SRCDIR/scripts/SmartRenameView.js</parameter>
+      <parameter id="md5sum">3b02d08f40a34eb7bd9f59904c496809</parameter>
+      <table id="parameters" rows="3">
+         <tr>
+            <td id="id">prefix</td>
+            <td id="value"></td>
+         </tr>
+         <tr>
+            <td id="id">suffix</td>
+            <td id="value"></td>
+         </tr>
+         <tr>
+            <td id="id">batchMode</td>
+            <td id="value">true</td>
+         </tr>
+      </table>
+      <parameter id="information"></parameter>
+   </instance>
+   <icon id="Append_Starless_to_ID" instance="Append_Starless_to_ID_instance" xpos="2559" ypos="71" workspace="Workspace01"/>
+   <icon id="Stretch_and_OptimalZoom_Visible_Images" instance="Stretch_and_OptimalZoom_Visible_Images_instance" xpos="2559" ypos="44" workspace="Workspace01"/>
+   <icon id="Rename_all_as_filter" instance="Rename_all_as_filter_instance" xpos="2559" ypos="17" workspace="Workspace01"/>
+</xpsm>
