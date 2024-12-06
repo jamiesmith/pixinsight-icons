@@ -3,7 +3,7 @@
 ********************************************************************
 PixInsight XML Process Serialization Module - XPSM 1.0
 ********************************************************************
-Generated on 2024-11-06T12:36:12.380Z
+Generated on 2024-11-14T15:58:57.876Z
 PixInsight Core 1.8.9-3 (x64)
 Copyright (c) 2003-2024 Pleiades Astrophoto
 ********************************************************************
@@ -1534,24 +1534,24 @@ X,Y,Z,X1,Y1,Z1,X2,Y2,Z2,X3,Y3,Z3,</parameter>
       <parameter id="newImageSampleFormat" value="SameAsTarget"/>
       <table id="outputData" rows="0"/>
    </instance>
-   <icon id="GH_Stretch" instance="GH_Stretch_instance" xpos="2560" ypos="1345" workspace="Workspace01"/>
-   <icon id="HT_Stretch_Unlinked" instance="HT_Stretch_Unlinked_instance" xpos="2560" ypos="1291" workspace="Workspace01"/>
-   <icon id="HT_Stretch_Linked_RGB" instance="HT_Stretch_Linked_RGB_instance" xpos="2560" ypos="1318" workspace="Workspace01"/>
-   <icon id="StarReductionM3_V3" instance="StarReductionM3_V3_instance" xpos="2768" ypos="1527" workspace="Workspace01"/>
-   <icon id="StarReductionM2_V3" instance="StarReductionM2_V3_instance" xpos="2768" ypos="1503" workspace="Workspace01"/>
-   <icon id="StarReductionM1_V3" instance="StarReductionM1_V3_instance" xpos="2768" ypos="1479" workspace="Workspace01"/>
-   <icon id="CloneForStarless" instance="CloneForStarless_instance" xpos="2768" ypos="1455" workspace="Workspace01"/>
-   <icon id="BLUR_MASK" instance="BLUR_MASK_instance" xpos="2768" ypos="1261" workspace="Workspace01"/>
-   <icon id="GreenMask" instance="GreenMask_instance" xpos="2768" ypos="1342" workspace="Workspace01"/>
-   <icon id="YellowMask" instance="YellowMask_instance" xpos="2768" ypos="1315" workspace="Workspace01"/>
-   <icon id="CyanMask" instance="CyanMask_instance" xpos="2768" ypos="1369" workspace="Workspace01"/>
-   <icon id="BlueMask" instance="BlueMask_instance" xpos="2768" ypos="1396" workspace="Workspace01"/>
-   <icon id="MagentaMask" instance="MagentaMask_instance" xpos="2768" ypos="1423" workspace="Workspace01"/>
-   <icon id="RedMask" instance="RedMask_instance" xpos="2768" ypos="1288" workspace="Workspace01"/>
-   <icon id="starless_for_RESCREENING" instance="starless_for_RESCREENING_instance" xpos="2558" ypos="1473" workspace="Workspace01"/>
-   <icon id="stars_for_RESCREENING" instance="stars_for_RESCREENING_instance" xpos="2558" ypos="1500" workspace="Workspace01"/>
-   <icon id="RESCREEN_starless_stars_V1" instance="RESCREEN_starless_stars_V1_instance" xpos="2558" ypos="1527" workspace="Workspace01"/>
-   <icon id="HOONormalizationV5" instance="HOONormalizationV5_instance" xpos="2559" ypos="1383" workspace="Workspace01"/>
-   <icon id="SHONormalizationV5" instance="SHONormalizationV5_instance" xpos="2559" ypos="1410" workspace="Workspace01"/>
-   <icon id="HSONormalizationV5" instance="HSONormalizationV5_instance" xpos="2559" ypos="1437" workspace="Workspace01"/>
+   <icon id="GH_Stretch" instance="GH_Stretch_instance" xpos="2084" ypos="1098" workspace="Workspace01"/>
+   <icon id="HT_Stretch_Unlinked" instance="HT_Stretch_Unlinked_instance" xpos="2084" ypos="1044" workspace="Workspace01"/>
+   <icon id="HT_Stretch_Linked_RGB" instance="HT_Stretch_Linked_RGB_instance" xpos="2084" ypos="1071" workspace="Workspace01"/>
+   <icon id="StarReductionM3_V3" instance="StarReductionM3_V3_instance" xpos="2292" ypos="1280" workspace="Workspace01"/>
+   <icon id="StarReductionM2_V3" instance="StarReductionM2_V3_instance" xpos="2292" ypos="1256" workspace="Workspace01"/>
+   <icon id="StarReductionM1_V3" instance="StarReductionM1_V3_instance" xpos="2292" ypos="1232" workspace="Workspace01"/>
+   <icon id="CloneForStarless" instance="CloneForStarless_instance" xpos="2292" ypos="1208" workspace="Workspace01"/>
+   <icon id="BLUR_MASK" instance="BLUR_MASK_instance" xpos="2292" ypos="1014" workspace="Workspace01"/>
+   <icon id="GreenMask" instance="GreenMask_instance" xpos="2292" ypos="1095" workspace="Workspace01"/>
+   <icon id="YellowMask" instance="YellowMask_instance" xpos="2292" ypos="1068" workspace="Workspace01"/>
+   <icon id="CyanMask" instance="CyanMask_instance" xpos="2292" ypos="1122" workspace="Workspace01"/>
+   <icon id="BlueMask" instance="BlueMask_instance" xpos="2292" ypos="1149" workspace="Workspace01"/>
+   <icon id="MagentaMask" instance="MagentaMask_instance" xpos="2292" ypos="1176" workspace="Workspace01"/>
+   <icon id="RedMask" instance="RedMask_instance" xpos="2292" ypos="1041" workspace="Workspace01"/>
+   <icon id="starless_for_RESCREENING" instance="starless_for_RESCREENING_instance" xpos="2082" ypos="1226" workspace="Workspace01"/>
+   <icon id="stars_for_RESCREENING" instance="stars_for_RESCREENING_instance" xpos="2082" ypos="1253" workspace="Workspace01"/>
+   <icon id="RESCREEN_starless_stars_V1" instance="RESCREEN_starless_stars_V1_instance" xpos="2082" ypos="1280" workspace="Workspace01"/>
+   <icon id="HOONormalizationV5" instance="HOONormalizationV5_instance" xpos="2083" ypos="1136" workspace="Workspace01"/>
+   <icon id="SHONormalizationV5" instance="SHONormalizationV5_instance" xpos="2083" ypos="1163" workspace="Workspace01"/>
+   <icon id="HSONormalizationV5" instance="HSONormalizationV5_instance" xpos="2083" ypos="1190" workspace="Workspace01"/>
 </xpsm>

@@ -3,14 +3,14 @@
 ********************************************************************
 PixInsight XML Process Serialization Module - XPSM 1.0
 ********************************************************************
-Generated on 2024-11-06T12:34:28.591Z
+Generated on 2024-11-14T15:58:12.453Z
 PixInsight Core 1.8.9-3 (x64)
 Copyright (c) 2003-2024 Pleiades Astrophoto
 ********************************************************************
 -->
 <xpsm version="1.0" xmlns="http://www.pixinsight.com/xpsm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.pixinsight.com/xpsm http://pixinsight.com/xpsm/xpsm-1.0.xsd">
    <instance class="Script" version="256" id="SmartRenameViews_instance">
-      <time start="2024-11-05T17:41:12.548Z" span="1.0878843"/>
+      <time start="2024-11-14T13:14:29.498Z" span="0.88251828"/>
       <parameter id="filePath">$PXI_SRCDIR/scripts/SmartRenameView.js</parameter>
       <parameter id="md5sum">df3d15b1932abe3a17f3acb64dfa7050</parameter>
       <table id="parameters" rows="3">
@@ -63,7 +63,7 @@ Copyright (c) 2003-2024 Pleiades Astrophoto
       <parameter id="interaction" value="SeparateChannels"/>
    </instance>
    <instance class="Script" version="256" id="ResizeAndStretchVisible_instance">
-      <time start="2024-11-05T17:41:15.282Z" span="4.2213082"/>
+      <time start="2024-11-14T13:14:33.031Z" span="3.799781"/>
       <parameter id="filePath">$PXI_SRCDIR/scripts/FixTiledZoom.js</parameter>
       <parameter id="md5sum">281d1f8e8bb1ffd789e190ff8a90f894</parameter>
       <table id="parameters" rows="2">
@@ -86,9 +86,9 @@ Copyright (c) 2003-2024 Pleiades Astrophoto
       <description>This is the standard SHO process</description>
       <time start="2024-10-29T19:19:39.522Z" span="2.094e-06"/>
    </instance>
-   <icon id="SmartRenameViews" instance="SmartRenameViews_instance" xpos="2558" ypos="28" workspace="Workspace01"/>
-   <icon id="STF" instance="STF_instance" xpos="2558" ypos="82" workspace="Workspace01"/>
-   <icon id="ResizeAndStretchVisible" instance="ResizeAndStretchVisible_instance" xpos="2558" ypos="55" workspace="Workspace01"/>
-   <icon id="__GLOBAL_UTILS__" instance="__GLOBAL_UTILS___instance" xpos="2558" ypos="1" workspace="Workspace01"/>
-   <icon id="____________________________________________________________" instance="_____________________________________________________________instance" xpos="2558" ypos="109" workspace="Workspace01"/>
+   <icon id="SmartRenameViews" instance="SmartRenameViews_instance" xpos="2083" ypos="28" workspace="Workspace01"/>
+   <icon id="STF" instance="STF_instance" xpos="2083" ypos="82" workspace="Workspace01"/>
+   <icon id="ResizeAndStretchVisible" instance="ResizeAndStretchVisible_instance" xpos="2082" ypos="56" workspace="Workspace01"/>
+   <icon id="__GLOBAL_UTILS__" instance="__GLOBAL_UTILS___instance" xpos="2083" ypos="1" workspace="Workspace01"/>
+   <icon id="____________________________________________________________" instance="_____________________________________________________________instance" xpos="2083" ypos="109" workspace="Workspace01"/>
 </xpsm>
