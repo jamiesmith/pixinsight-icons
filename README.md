@@ -24,7 +24,6 @@ These are the repositories that I have configured (in addition to the core PI re
 - `https://raw.githubusercontent.com/jamiesmith/pixinsight-repo/main/`
 - `https://elveteek.ch/pixinsight-updates/ez-processing-suite/`
 - `https://foraxxpaletteutility.com/FPU/`
-- `https://raw.githubusercontent.com/jamiesmith/pixinsight-repo/main/`
 - `https://raw.githubusercontent.com/setiastro/pixinsight-updates/main/`
 - `https://www.cosmicphotons.com/pi-modules/narrowbandnormalization/`
 - `https://www.cosmicphotons.com/pi-scripts/bfke/`
