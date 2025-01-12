@@ -3,8 +3,8 @@
 ********************************************************************
 PixInsight XML Process Serialization Module - XPSM 1.0
 ********************************************************************
-Generated on 2024-11-06T12:13:24.221Z
-PixInsight Core 1.8.9-3 (x64)
+Generated on 2025-01-12T17:09:35.539Z
+PixInsight Core 1.9.2 (x64)
 Copyright (c) 2003-2024 Pleiades Astrophoto
 ********************************************************************
 -->
@@ -58,7 +58,20 @@ Copyright (c) 2003-2024 Pleiades Astrophoto
       </table>
       <parameter id="information"></parameter>
    </instance>
+   <instance class="Script" version="256" id="CloneAndAppend_linear_instance">
+      <time start="2025-01-12T17:09:22.687Z" span="1.423001"/>
+      <parameter id="filePath">$PXI_SRCDIR/scripts/CloneWithSuffix.js</parameter>
+      <parameter id="md5sum">f29a023f1f5808b328d303cf61f29e15</parameter>
+      <table id="parameters" rows="1">
+         <tr>
+            <td id="id">suffix</td>
+            <td id="value">linear</td>
+         </tr>
+      </table>
+      <parameter id="information"></parameter>
+   </instance>
    <icon id="Append_Starless_to_ID" instance="Append_Starless_to_ID_instance" xpos="29" ypos="76" workspace="Workspace01"/>
    <icon id="Stretch_and_OptimalZoom_Visible_Images" instance="Stretch_and_OptimalZoom_Visible_Images_instance" xpos="29" ypos="49" workspace="Workspace01"/>
    <icon id="Rename_all_as_filter" instance="Rename_all_as_filter_instance" xpos="29" ypos="22" workspace="Workspace01"/>
+   <icon id="CloneAndAppend_linear" instance="CloneAndAppend_linear_instance" xpos="29" ypos="103" workspace="Workspace01"/>
 </xpsm>

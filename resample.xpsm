@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+********************************************************************
+PixInsight XML Process Serialization Module - XPSM 1.0
+********************************************************************
+Generated on 2025-01-10T15:39:32.922Z
+PixInsight Core 1.9.2 (x64)
+Copyright (c) 2003-2024 Pleiades Astrophoto
+********************************************************************
+-->
+<xpsm version="1.0" xmlns="http://www.pixinsight.com/xpsm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.pixinsight.com/xpsm http://pixinsight.com/xpsm/xpsm-1.0.xsd">
+   <instance class="Resample" version="256" id="ResampleClone_3000_instance">
+      <time start="2024-11-23T19:45:14.948Z" span="0.20571483"/>
+      <parameter id="xSize" value="0.3133"/>
+      <parameter id="ySize" value="0.3133"/>
+      <parameter id="mode" value="RelativeDimensions"/>
+      <parameter id="absoluteMode" value="ForceWidthAndHeight"/>
+      <parameter id="xResolution" value="72.000"/>
+      <parameter id="yResolution" value="72.000"/>
+      <parameter id="metric" value="false"/>
+      <parameter id="forceResolution" value="false"/>
+      <parameter id="interpolation" value="Auto"/>
+      <parameter id="clampingThreshold" value="0.30"/>
+      <parameter id="smoothness" value="1.50"/>
+      <parameter id="gammaCorrection" value="false"/>
+      <parameter id="noGUIMessages" value="false"/>
+   </instance>
+   <instance class="Resample" version="256" id="ResampleClone_25pct_instance">
+      <time start="2024-11-24T18:49:15.311Z" span="0.28572651"/>
+      <parameter id="xSize" value="0.5000"/>
+      <parameter id="ySize" value="0.5000"/>
+      <parameter id="mode" value="RelativeDimensions"/>
+      <parameter id="absoluteMode" value="ForceWidthAndHeight"/>
+      <parameter id="xResolution" value="72.000"/>
+      <parameter id="yResolution" value="72.000"/>
+      <parameter id="metric" value="false"/>
+      <parameter id="forceResolution" value="false"/>
+      <parameter id="interpolation" value="Auto"/>
+      <parameter id="clampingThreshold" value="0.30"/>
+      <parameter id="smoothness" value="1.50"/>
+      <parameter id="gammaCorrection" value="false"/>
+      <parameter id="noGUIMessages" value="false"/>
+   </instance>
+   <instance class="Resample" version="256" id="ResampleClone_2000px_instance">
+      <time start="2024-12-24T16:10:05.231Z" span="0.17347849"/>
+      <parameter id="xSize" value="0.2131"/>
+      <parameter id="ySize" value="0.2131"/>
+      <parameter id="mode" value="RelativeDimensions"/>
+      <parameter id="absoluteMode" value="ForceWidthAndHeight"/>
+      <parameter id="xResolution" value="72.000"/>
+      <parameter id="yResolution" value="72.000"/>
+      <parameter id="metric" value="false"/>
+      <parameter id="forceResolution" value="false"/>
+      <parameter id="interpolation" value="Auto"/>
+      <parameter id="clampingThreshold" value="0.30"/>
+      <parameter id="smoothness" value="1.50"/>
+      <parameter id="gammaCorrection" value="false"/>
+      <parameter id="noGUIMessages" value="false"/>
+   </instance>
+   <instance class="Resample" version="256" id="ResampleClone_5000px_instance">
+      <time start="2025-01-08T19:39:24.284Z" span="0.20571831"/>
+      <parameter id="xSize" value="0.5369"/>
+      <parameter id="ySize" value="0.5369"/>
+      <parameter id="mode" value="RelativeDimensions"/>
+      <parameter id="absoluteMode" value="ForceWidthAndHeight"/>
+      <parameter id="xResolution" value="72.000"/>
+      <parameter id="yResolution" value="72.000"/>
+      <parameter id="metric" value="false"/>
+      <parameter id="forceResolution" value="false"/>
+      <parameter id="interpolation" value="Auto"/>
+      <parameter id="clampingThreshold" value="0.30"/>
+      <parameter id="smoothness" value="1.50"/>
+      <parameter id="gammaCorrection" value="false"/>
+      <parameter id="noGUIMessages" value="false"/>
+   </instance>
+   <icon id="ResampleClone_3000" instance="ResampleClone_3000_instance" xpos="2083" ypos="858" workspace="Workspace01"/>
+   <icon id="ResampleClone_25pct" instance="ResampleClone_25pct_instance" xpos="2083" ypos="885" workspace="Workspace01"/>
+   <icon id="ResampleClone_2000px" instance="ResampleClone_2000px_instance" xpos="2083" ypos="939" workspace="Workspace01"/>
+   <icon id="ResampleClone_5000px" instance="ResampleClone_5000px_instance" xpos="2083" ypos="912" workspace="Workspace01"/>
+</xpsm>

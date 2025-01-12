@@ -3,12 +3,24 @@
 ********************************************************************
 PixInsight XML Process Serialization Module - XPSM 1.0
 ********************************************************************
-Generated on 2025-01-05T20:46:08.877Z
+Generated on 2025-01-12T17:04:46.896Z
 PixInsight Core 1.9.2 (x64)
 Copyright (c) 2003-2024 Pleiades Astrophoto
 ********************************************************************
 -->
 <xpsm version="1.0" xmlns="http://www.pixinsight.com/xpsm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.pixinsight.com/xpsm http://pixinsight.com/xpsm/xpsm-1.0.xsd">
+   <instance class="Script" version="256" id="CloneAndSave_Linear_instance">
+      <time start="2025-01-12T17:02:04.619Z" span="1.7873929"/>
+      <parameter id="filePath">$PXI_SRCDIR/scripts/CloneWithSuffix.js</parameter>
+      <parameter id="md5sum">f29a023f1f5808b328d303cf61f29e15</parameter>
+      <table id="parameters" rows="1">
+         <tr>
+            <td id="id">suffix</td>
+            <td id="value">linear</td>
+         </tr>
+      </table>
+      <parameter id="information"></parameter>
+   </instance>
    <instance class="SpectrophotometricColorCalibration" version="1" id="SPCC_RGB_ASG_instance">
       <time start="2024-10-15T17:11:09.746Z" span="35.588659"/>
       <parameter id="applyCalibration" value="true"/>
@@ -659,22 +671,6 @@ Copyright (c) 2003-2024 Pleiades Astrophoto
       <parameter id="denoise" value="0.90"/>
       <parameter id="detail" value="0.15"/>
    </instance>
-   <instance class="Script" version="256" id="RGB_AppendStarless_instance">
-      <time start="2025-01-02T21:43:33.730Z" span="0.8584989"/>
-      <parameter id="filePath">$PXI_SRCDIR/scripts/AppendPrefixSuffix.js</parameter>
-      <parameter id="md5sum">fe726bbf981fabde5d83f1dc892b5026</parameter>
-      <table id="parameters" rows="2">
-         <tr>
-            <td id="id">prefix</td>
-            <td id="value"></td>
-         </tr>
-         <tr>
-            <td id="id">suffix</td>
-            <td id="value">starless</td>
-         </tr>
-      </table>
-      <parameter id="information"></parameter>
-   </instance>
    <instance class="StarXTerminator" version="256" id="StarX_instance">
       <time start="2025-01-02T21:43:38.227Z" span="29.036834"/>
       <parameter id="ai_file">StarXTerminator.lite.nonoise.11.mlpackage</parameter>
@@ -727,6 +723,7 @@ Copyright (c) 2003-2024 Pleiades Astrophoto
       <parameter id="newImageSampleFormat" value="SameAsTarget"/>
       <table id="outputData" rows="0"/>
    </instance>
+   <icon id="CloneAndSave_Linear" instance="CloneAndSave_Linear_instance" xpos="2088" ypos="535" workspace="Workspace01"/>
    <icon id="SPCC_RGB_ASG" instance="SPCC_RGB_ASG_instance" xpos="2088" ypos="454" workspace="Workspace01"/>
    <icon id="BkgdNeutral_MAYBE" instance="BkgdNeutral_MAYBE_instance" xpos="2088" ypos="751" workspace="Workspace01"/>
    <icon id="Opt_SaturateStars" instance="Opt_SaturateStars_instance" xpos="2088" ypos="697" workspace="Workspace01"/>
@@ -744,7 +741,6 @@ Copyright (c) 2003-2024 Pleiades Astrophoto
    <icon id="SPCC_RGB_PF" instance="SPCC_RGB_PF_instance" xpos="2088" ypos="427" workspace="Workspace01"/>
    <icon id="Crop" instance="Crop_instance" xpos="2088" ypos="238" workspace="Workspace01"/>
    <icon id="NoiseX_TWEAK" instance="NoiseX_TWEAK_instance" xpos="2088" ypos="508" workspace="Workspace01"/>
-   <icon id="RGB_AppendStarless" instance="RGB_AppendStarless_instance" xpos="2088" ypos="535" workspace="Workspace01"/>
    <icon id="StarX" instance="StarX_instance" xpos="2088" ypos="562" workspace="Workspace01"/>
    <icon id="BlurX_Full" instance="BlurX_Full_instance" xpos="2088" ypos="481" workspace="Workspace01"/>
    <icon id="for_each_in_RGB" instance="for_each_in_RGB_instance" xpos="2088" ypos="211" workspace="Workspace01"/>
