@@ -3,7 +3,7 @@
 ********************************************************************
 PixInsight XML Process Serialization Module - XPSM 1.0
 ********************************************************************
-Generated on 2025-01-12T17:09:35.539Z
+Generated on 2025-01-16T17:08:58.218Z
 PixInsight Core 1.9.2 (x64)
 Copyright (c) 2003-2024 Pleiades Astrophoto
 ********************************************************************
@@ -70,8 +70,20 @@ Copyright (c) 2003-2024 Pleiades Astrophoto
       </table>
       <parameter id="information"></parameter>
    </instance>
+   <instance class="Script" version="256" id="IconizeChild_stars_instance">
+      <parameter id="filePath">$PXI_SRCDIR/scripts/IconizeChildView.js</parameter>
+      <parameter id="md5sum">cf6873bcc0eebf4f1e7f110bb891325b</parameter>
+      <table id="parameters" rows="1">
+         <tr>
+            <td id="id">suffix</td>
+            <td id="value">stars</td>
+         </tr>
+      </table>
+      <parameter id="information"></parameter>
+   </instance>
    <icon id="Append_Starless_to_ID" instance="Append_Starless_to_ID_instance" xpos="29" ypos="76" workspace="Workspace01"/>
    <icon id="Stretch_and_OptimalZoom_Visible_Images" instance="Stretch_and_OptimalZoom_Visible_Images_instance" xpos="29" ypos="49" workspace="Workspace01"/>
    <icon id="Rename_all_as_filter" instance="Rename_all_as_filter_instance" xpos="29" ypos="22" workspace="Workspace01"/>
    <icon id="CloneAndAppend_linear" instance="CloneAndAppend_linear_instance" xpos="29" ypos="103" workspace="Workspace01"/>
+   <icon id="IconizeChild_stars" instance="IconizeChild_stars_instance" xpos="29" ypos="130" workspace="Workspace01"/>
 </xpsm>
