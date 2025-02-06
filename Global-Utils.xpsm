@@ -3,14 +3,14 @@
 ********************************************************************
 PixInsight XML Process Serialization Module - XPSM 1.0
 ********************************************************************
-Generated on 2024-12-11T17:00:09.072Z
-PixInsight Core 1.8.9-3 (x64)
+Generated on 2025-01-21T14:43:54.900Z
+PixInsight Core 1.9.2 (x64)
 Copyright (c) 2003-2024 Pleiades Astrophoto
 ********************************************************************
 -->
 <xpsm version="1.0" xmlns="http://www.pixinsight.com/xpsm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.pixinsight.com/xpsm http://pixinsight.com/xpsm/xpsm-1.0.xsd">
    <instance class="Script" version="256" id="SmartRenameViews_instance">
-      <time start="2024-12-11T16:00:15.709Z" span="2.6500347"/>
+      <time start="2025-01-21T13:11:26.626Z" span="1.6801765"/>
       <parameter id="filePath">$PXI_SRCDIR/scripts/SmartRenameView.js</parameter>
       <parameter id="md5sum">df3d15b1932abe3a17f3acb64dfa7050</parameter>
       <table id="parameters" rows="3">
@@ -30,7 +30,7 @@ Copyright (c) 2003-2024 Pleiades Astrophoto
       <parameter id="information"></parameter>
    </instance>
    <instance class="Script" version="256" id="ResizeAndStretchVisible_instance">
-      <time start="2024-12-11T16:00:21.380Z" span="3.0668043"/>
+      <time start="2025-01-21T13:11:31.034Z" span="4.8967613"/>
       <parameter id="filePath">$PXI_SRCDIR/scripts/FixTiledZoom.js</parameter>
       <parameter id="md5sum">281d1f8e8bb1ffd789e190ff8a90f894</parameter>
       <table id="parameters" rows="2">
@@ -76,10 +76,41 @@ Copyright (c) 2003-2024 Pleiades Astrophoto
       <parameter id="colorToRemove" value="Green"/>
       <parameter id="preserveLightness" value="true"/>
    </instance>
+   <instance class="PixelMath" version="256" id="ScreenRGBStarsToImage_instance">
+      <time start="2025-01-21T14:15:59.274Z" span="2.4119662"/>
+      <parameter id="expression">combine($T,RGB_stars,op_screen())</parameter>
+      <parameter id="expression1"></parameter>
+      <parameter id="expression2"></parameter>
+      <parameter id="expression3"></parameter>
+      <parameter id="useSingleExpression" value="true"/>
+      <parameter id="symbols"></parameter>
+      <parameter id="clearImageCacheAndExit" value="false"/>
+      <parameter id="cacheGeneratedImages" value="false"/>
+      <parameter id="generateOutput" value="true"/>
+      <parameter id="singleThreaded" value="false"/>
+      <parameter id="optimization" value="true"/>
+      <parameter id="use64BitWorkingImage" value="false"/>
+      <parameter id="rescale" value="false"/>
+      <parameter id="rescaleLower" value="0"/>
+      <parameter id="rescaleUpper" value="1"/>
+      <parameter id="truncate" value="true"/>
+      <parameter id="truncateLower" value="0"/>
+      <parameter id="truncateUpper" value="1"/>
+      <parameter id="createNewImage" value="false"/>
+      <parameter id="showNewImage" value="true"/>
+      <parameter id="newImageId"></parameter>
+      <parameter id="newImageWidth" value="0"/>
+      <parameter id="newImageHeight" value="0"/>
+      <parameter id="newImageAlpha" value="false"/>
+      <parameter id="newImageColorSpace" value="SameAsTarget"/>
+      <parameter id="newImageSampleFormat" value="SameAsTarget"/>
+      <table id="outputData" rows="0"/>
+   </instance>
    <icon id="SmartRenameViews" instance="SmartRenameViews_instance" xpos="2083" ypos="28" workspace="Workspace01"/>
    <icon id="ResizeAndStretchVisible" instance="ResizeAndStretchVisible_instance" xpos="2083" ypos="55" workspace="Workspace01"/>
    <icon id="__GLOBAL_UTILS__" instance="__GLOBAL_UTILS___instance" xpos="2083" ypos="1" workspace="Workspace01"/>
-   <icon id="____________________________________________________________" instance="_____________________________________________________________instance" xpos="2083" ypos="136" workspace="Workspace01"/>
+   <icon id="____________________________________________________________" instance="_____________________________________________________________instance" xpos="2083" ypos="163" workspace="Workspace01"/>
    <icon id="FixMagentaStars" instance="FixMagentaStars_instance" xpos="2083" ypos="82" workspace="Workspace01"/>
    <icon id="SCNR_if_too_green" instance="SCNR_if_too_green_instance" xpos="2083" ypos="109" workspace="Workspace01"/>
+   <icon id="ScreenRGBStarsToImage" instance="ScreenRGBStarsToImage_instance" xpos="2083" ypos="136" workspace="Workspace01"/>
 </xpsm>

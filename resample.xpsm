@@ -3,7 +3,7 @@
 ********************************************************************
 PixInsight XML Process Serialization Module - XPSM 1.0
 ********************************************************************
-Generated on 2025-01-10T15:39:32.922Z
+Generated on 2025-01-21T16:52:54.273Z
 PixInsight Core 1.9.2 (x64)
 Copyright (c) 2003-2024 Pleiades Astrophoto
 ********************************************************************
@@ -73,8 +73,8 @@ Copyright (c) 2003-2024 Pleiades Astrophoto
       <parameter id="gammaCorrection" value="false"/>
       <parameter id="noGUIMessages" value="false"/>
    </instance>
-   <icon id="ResampleClone_3000" instance="ResampleClone_3000_instance" xpos="2083" ypos="858" workspace="Workspace01"/>
-   <icon id="ResampleClone_25pct" instance="ResampleClone_25pct_instance" xpos="2083" ypos="885" workspace="Workspace01"/>
-   <icon id="ResampleClone_2000px" instance="ResampleClone_2000px_instance" xpos="2083" ypos="939" workspace="Workspace01"/>
-   <icon id="ResampleClone_5000px" instance="ResampleClone_5000px_instance" xpos="2083" ypos="912" workspace="Workspace01"/>
+   <icon id="ResampleClone_3000" instance="ResampleClone_3000_instance" xpos="2082" ypos="884" workspace="Workspace01"/>
+   <icon id="ResampleClone_25pct" instance="ResampleClone_25pct_instance" xpos="2082" ypos="911" workspace="Workspace01"/>
+   <icon id="ResampleClone_2000px" instance="ResampleClone_2000px_instance" xpos="2082" ypos="965" workspace="Workspace01"/>
+   <icon id="ResampleClone_5000px" instance="ResampleClone_5000px_instance" xpos="2082" ypos="938" workspace="Workspace01"/>
 </xpsm>
