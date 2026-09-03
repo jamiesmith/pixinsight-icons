@@ -3,7 +3,7 @@
 ********************************************************************
 PixInsight XML Process Serialization Module - XPSM 1.0
 ********************************************************************
-Generated on 2026-09-03T13:11:38.771Z
+Generated on 2026-09-03T13:54:23.714Z
 PixInsight Core 1.9.4 (x64)
 Copyright (c) 2003-2026 Pleiades Astrophoto
 ********************************************************************
@@ -727,42 +727,30 @@ g;</parameter>
          <parameter id="information"></parameter>
       </instance>
    </instance>
-   <instance class="Script" version="256" id="IconizeFilter_instance">
-      <parameter id="filePath">$PXI_SRCDIR/scripts/IconizeChildView.js</parameter>
-      <parameter id="md5sum">19963f8f6ec85bb08e9e2333857a58b9</parameter>
-      <table id="parameters" rows="1">
-         <tr>
-            <td id="id">suffix</td>
-            <td id="value"></td>
-         </tr>
-      </table>
-      <parameter id="information"></parameter>
-   </instance>
-   <icon id="LumMaskForStarless" instance="LumMaskForStarless_instance" xpos="2285" ypos="728" workspace="Workspace01"/>
-   <icon id="HDR_MX_MAYBE" instance="HDR_MX_MAYBE_instance" xpos="2285" ypos="755" workspace="Workspace01"/>
-   <icon id="LocalHistEQ_TWEAK" instance="LocalHistEQ_TWEAK_instance" xpos="2285" ypos="782" workspace="Workspace01"/>
-   <icon id="Scripts_utilities_DSE" instance="Scripts_utilities_DSE_instance" xpos="2285" ypos="701" workspace="Workspace01"/>
+   <icon id="LumMaskForStarless" instance="LumMaskForStarless_instance" xpos="2285" ypos="701" workspace="Workspace01"/>
+   <icon id="HDR_MX_MAYBE" instance="HDR_MX_MAYBE_instance" xpos="2285" ypos="728" workspace="Workspace01"/>
+   <icon id="LocalHistEQ_TWEAK" instance="LocalHistEQ_TWEAK_instance" xpos="2285" ypos="755" workspace="Workspace01"/>
+   <icon id="Scripts_utilities_DSE" instance="Scripts_utilities_DSE_instance" xpos="2285" ypos="674" workspace="Workspace01"/>
    <icon id="SHO_Gradient_Removal" instance="SHO_Gradient_Removal_instance" xpos="2285" ypos="296" workspace="Workspace01"/>
-   <icon id="NB_Combine" instance="NB_Combine_instance" xpos="2285" ypos="485" workspace="Workspace01"/>
+   <icon id="NB_Combine" instance="NB_Combine_instance" xpos="2285" ypos="458" workspace="Workspace01"/>
    <icon id="__SHO_workflow__" instance="__SHO_workflow___instance" xpos="2285" ypos="215" workspace="Workspace01"/>
-   <icon id="SHO_AppendStarless" instance="SHO_AppendStarless_instance" xpos="2285" ypos="647" workspace="Workspace01"/>
-   <icon id="ScreenStars_PixelMath" instance="ScreenStars_PixelMath_instance" xpos="2285" ypos="863" workspace="Workspace01"/>
+   <icon id="SHO_AppendStarless" instance="SHO_AppendStarless_instance" xpos="2285" ypos="620" workspace="Workspace01"/>
+   <icon id="ScreenStars_PixelMath" instance="ScreenStars_PixelMath_instance" xpos="2285" ypos="836" workspace="Workspace01"/>
    <icon id="GC_each_SHO" instance="GC_each_SHO_instance" xpos="2285" ypos="323" workspace="Workspace01"/>
    <icon id="SHO_BlurX_Full" instance="SHO_BlurX_Full_instance" xpos="2285" ypos="269" workspace="Workspace01"/>
-   <icon id="NarrowbandNormalization" instance="NarrowbandNormalization_instance" xpos="2285" ypos="620" workspace="Workspace01"/>
-   <icon id="CurvesForColorAndSat" instance="CurvesForColorAndSat_instance" xpos="2285" ypos="809" workspace="Workspace01"/>
-   <icon id="ConvertTheGreen" instance="ConvertTheGreen_instance" xpos="2285" ypos="890" workspace="Workspace01"/>
-   <icon id="GHS_for_SHO_starless" instance="GHS_for_SHO_starless_instance" xpos="2285" ypos="674" workspace="Workspace01"/>
-   <icon id="ScreenStars_BLEND_OR" instance="ScreenStars_BLEND_OR_instance" xpos="2285" ypos="836" workspace="Workspace01"/>
-   <icon id="SHO_combo_PM" instance="SHO_combo_PM_instance" xpos="2285" ypos="512" workspace="Workspace01"/>
+   <icon id="NarrowbandNormalization" instance="NarrowbandNormalization_instance" xpos="2285" ypos="593" workspace="Workspace01"/>
+   <icon id="CurvesForColorAndSat" instance="CurvesForColorAndSat_instance" xpos="2285" ypos="782" workspace="Workspace01"/>
+   <icon id="ConvertTheGreen" instance="ConvertTheGreen_instance" xpos="2285" ypos="863" workspace="Workspace01"/>
+   <icon id="GHS_for_SHO_starless" instance="GHS_for_SHO_starless_instance" xpos="2285" ypos="647" workspace="Workspace01"/>
+   <icon id="ScreenStars_BLEND_OR" instance="ScreenStars_BLEND_OR_instance" xpos="2285" ypos="809" workspace="Workspace01"/>
+   <icon id="SHO_combo_PM" instance="SHO_combo_PM_instance" xpos="2285" ypos="485" workspace="Workspace01"/>
    <icon id="CloneNB_linear" instance="CloneNB_linear_instance" xpos="2285" ypos="377" workspace="Workspace01"/>
    <icon id="CloneNB_stars" instance="CloneNB_stars_instance" xpos="2285" ypos="431" workspace="Workspace01"/>
-   <icon id="HOO_combo" instance="HOO_combo_instance" xpos="2285" ypos="539" workspace="Workspace01"/>
-   <icon id="SHO_combo_PM_A" instance="SHO_combo_PM_A_instance" xpos="2285" ypos="566" workspace="Workspace01"/>
-   <icon id="SHO_image_list" instance="SHO_image_list_instance" xpos="2285" ypos="917" workspace="Workspace01"/>
-   <icon id="SHO_combo_PM_B" instance="SHO_combo_PM_B_instance" xpos="2285" ypos="593" workspace="Workspace01"/>
+   <icon id="HOO_combo" instance="HOO_combo_instance" xpos="2285" ypos="512" workspace="Workspace01"/>
+   <icon id="SHO_combo_PM_A" instance="SHO_combo_PM_A_instance" xpos="2285" ypos="539" workspace="Workspace01"/>
+   <icon id="SHO_image_list" instance="SHO_image_list_instance" xpos="2285" ypos="890" workspace="Workspace01"/>
+   <icon id="SHO_combo_PM_B" instance="SHO_combo_PM_B_instance" xpos="2285" ypos="566" workspace="Workspace01"/>
    <icon id="NoiseX_tweak_SHO" instance="NoiseX_tweak_SHO_instance" xpos="2285" ypos="350" workspace="Workspace01"/>
    <icon id="StarX_SHO" instance="StarX_SHO_instance" xpos="2285" ypos="404" workspace="Workspace01"/>
    <icon id="for_each_SHO__ADD_CROP" instance="for_each_SHO__ADD_CROP_instance" xpos="2285" ypos="242" workspace="Workspace01"/>
-   <icon id="IconizeFilter" instance="IconizeFilter_instance" xpos="2285" ypos="458" workspace="Workspace01"/>
 </xpsm>
