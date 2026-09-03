@@ -3,9 +3,9 @@
 ********************************************************************
 PixInsight XML Process Serialization Module - XPSM 1.0
 ********************************************************************
-Generated on 2024-11-14T15:58:57.876Z
-PixInsight Core 1.8.9-3 (x64)
-Copyright (c) 2003-2024 Pleiades Astrophoto
+Generated on 2025-03-02T18:46:48.319Z
+PixInsight Core 1.9.3 (x64)
+Copyright (c) 2003-2025 Pleiades Astrophoto
 ********************************************************************
 -->
 <xpsm version="1.0" xmlns="http://www.pixinsight.com/xpsm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.pixinsight.com/xpsm http://pixinsight.com/xpsm/xpsm-1.0.xsd">
@@ -1534,9 +1534,9 @@ X,Y,Z,X1,Y1,Z1,X2,Y2,Z2,X3,Y3,Z3,</parameter>
       <parameter id="newImageSampleFormat" value="SameAsTarget"/>
       <table id="outputData" rows="0"/>
    </instance>
-   <icon id="GH_Stretch" instance="GH_Stretch_instance" xpos="2084" ypos="1098" workspace="Workspace01"/>
-   <icon id="HT_Stretch_Unlinked" instance="HT_Stretch_Unlinked_instance" xpos="2084" ypos="1044" workspace="Workspace01"/>
-   <icon id="HT_Stretch_Linked_RGB" instance="HT_Stretch_Linked_RGB_instance" xpos="2084" ypos="1071" workspace="Workspace01"/>
+   <icon id="GH_Stretch" instance="GH_Stretch_instance" xpos="2100" ypos="1099" workspace="Workspace01"/>
+   <icon id="HT_Stretch_Unlinked" instance="HT_Stretch_Unlinked_instance" xpos="2100" ypos="1045" workspace="Workspace01"/>
+   <icon id="HT_Stretch_Linked_RGB" instance="HT_Stretch_Linked_RGB_instance" xpos="2100" ypos="1072" workspace="Workspace01"/>
    <icon id="StarReductionM3_V3" instance="StarReductionM3_V3_instance" xpos="2292" ypos="1280" workspace="Workspace01"/>
    <icon id="StarReductionM2_V3" instance="StarReductionM2_V3_instance" xpos="2292" ypos="1256" workspace="Workspace01"/>
    <icon id="StarReductionM1_V3" instance="StarReductionM1_V3_instance" xpos="2292" ypos="1232" workspace="Workspace01"/>
@@ -1548,10 +1548,10 @@ X,Y,Z,X1,Y1,Z1,X2,Y2,Z2,X3,Y3,Z3,</parameter>
    <icon id="BlueMask" instance="BlueMask_instance" xpos="2292" ypos="1149" workspace="Workspace01"/>
    <icon id="MagentaMask" instance="MagentaMask_instance" xpos="2292" ypos="1176" workspace="Workspace01"/>
    <icon id="RedMask" instance="RedMask_instance" xpos="2292" ypos="1041" workspace="Workspace01"/>
-   <icon id="starless_for_RESCREENING" instance="starless_for_RESCREENING_instance" xpos="2082" ypos="1226" workspace="Workspace01"/>
-   <icon id="stars_for_RESCREENING" instance="stars_for_RESCREENING_instance" xpos="2082" ypos="1253" workspace="Workspace01"/>
-   <icon id="RESCREEN_starless_stars_V1" instance="RESCREEN_starless_stars_V1_instance" xpos="2082" ypos="1280" workspace="Workspace01"/>
-   <icon id="HOONormalizationV5" instance="HOONormalizationV5_instance" xpos="2083" ypos="1136" workspace="Workspace01"/>
-   <icon id="SHONormalizationV5" instance="SHONormalizationV5_instance" xpos="2083" ypos="1163" workspace="Workspace01"/>
-   <icon id="HSONormalizationV5" instance="HSONormalizationV5_instance" xpos="2083" ypos="1190" workspace="Workspace01"/>
+   <icon id="starless_for_RESCREENING" instance="starless_for_RESCREENING_instance" xpos="2098" ypos="1227" workspace="Workspace01"/>
+   <icon id="stars_for_RESCREENING" instance="stars_for_RESCREENING_instance" xpos="2098" ypos="1254" workspace="Workspace01"/>
+   <icon id="RESCREEN_starless_stars_V1" instance="RESCREEN_starless_stars_V1_instance" xpos="2098" ypos="1281" workspace="Workspace01"/>
+   <icon id="HOONormalizationV5" instance="HOONormalizationV5_instance" xpos="2099" ypos="1137" workspace="Workspace01"/>
+   <icon id="SHONormalizationV5" instance="SHONormalizationV5_instance" xpos="2099" ypos="1164" workspace="Workspace01"/>
+   <icon id="HSONormalizationV5" instance="HSONormalizationV5_instance" xpos="2099" ypos="1191" workspace="Workspace01"/>
 </xpsm>

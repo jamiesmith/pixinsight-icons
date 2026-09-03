@@ -3,9 +3,9 @@
 ********************************************************************
 PixInsight XML Process Serialization Module - XPSM 1.0
 ********************************************************************
-Generated on 2025-02-06T16:06:34.112Z
-PixInsight Core 1.9.2 (x64)
-Copyright (c) 2003-2024 Pleiades Astrophoto
+Generated on 2026-09-03T11:28:07.421Z
+PixInsight Core 1.9.4 (x64)
+Copyright (c) 2003-2026 Pleiades Astrophoto
 ********************************************************************
 -->
 <xpsm version="1.0" xmlns="http://www.pixinsight.com/xpsm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.pixinsight.com/xpsm http://pixinsight.com/xpsm/xpsm-1.0.xsd">
@@ -58,6 +58,7 @@ Copyright (c) 2003-2024 Pleiades Astrophoto
       <parameter id="toLightness" value="false"/>
       <parameter id="preserveHue" value="false"/>
       <parameter id="lightnessMask" value="false"/>
+      <parameter id="intensity" value="1.00"/>
    </instance>
    <instance class="LocalHistogramEqualization" version="256" id="LocalHistEQ_TWEAK_instance">
       <parameter id="radius" value="64"/>
@@ -156,16 +157,15 @@ Copyright (c) 2003-2024 Pleiades Astrophoto
    </instance>
    <instance class="BlurXTerminator" version="256" id="SHO_BlurX_Full_instance">
       <time start="2024-12-11T16:02:36.805Z" span="40.382225"/>
-      <parameter id="ai_file">BlurXTerminator.4.mlpackage</parameter>
+      <parameter id="ml_version" value="4"/>
       <parameter id="correct_only" value="false"/>
-      <parameter id="correct_first" value="false"/>
-      <parameter id="nonstellar_then_stellar" value="false"/>
-      <parameter id="lum_only" value="false"/>
       <parameter id="sharpen_stars" value="0.50"/>
-      <parameter id="adjust_halos" value="0.00"/>
-      <parameter id="nonstellar_psf_diameter" value="0.00"/>
+      <parameter id="adjust_star_halos" value="0.00"/>
+      <parameter id="nonstellar_diameter" value="0.0"/>
       <parameter id="auto_nonstellar_psf" value="true"/>
       <parameter id="sharpen_nonstellar" value="0.50"/>
+      <parameter id="lunar_planetary" value="false"/>
+      <parameter id="overlap" value="0.20"/>
    </instance>
    <instance class="NarrowbandNormalization" version="256" id="NarrowbandNormalization_instance">
       <parameter id="palette" value="Palette_HOO"/>
@@ -479,31 +479,6 @@ g;</parameter>
       <parameter id="newImageSampleFormat" value="SameAsTarget"/>
       <table id="outputData" rows="0"/>
    </instance>
-   <instance class="AutomaticBackgroundExtractor" version="256" id="ABE_each_SHO_instance">
-      <parameter id="tolerance" value="1.000"/>
-      <parameter id="deviation" value="0.800"/>
-      <parameter id="unbalance" value="1.800"/>
-      <parameter id="minBoxFraction" value="0.050"/>
-      <parameter id="maxBackground" value="1.0000"/>
-      <parameter id="minBackground" value="0.0000"/>
-      <parameter id="useBrightnessLimits" value="false"/>
-      <parameter id="polyDegree" value="4"/>
-      <parameter id="boxSize" value="5"/>
-      <parameter id="boxSeparation" value="5"/>
-      <parameter id="modelImageSampleFormat" value="f32"/>
-      <parameter id="abeDownsample" value="2.00"/>
-      <parameter id="writeSampleBoxes" value="false"/>
-      <parameter id="justTrySamples" value="false"/>
-      <parameter id="targetCorrection" value="Subtract"/>
-      <parameter id="normalize" value="true"/>
-      <parameter id="discardModel" value="false"/>
-      <parameter id="replaceTarget" value="true"/>
-      <parameter id="correctedImageId"></parameter>
-      <parameter id="correctedImageSampleFormat" value="SameAsTarget"/>
-      <parameter id="verboseCoefficients" value="false"/>
-      <parameter id="compareModel" value="false"/>
-      <parameter id="compareFactor" value="10.00"/>
-   </instance>
    <instance class="Script" version="256" id="CloneNB_linear_instance">
       <parameter id="filePath">$PXI_SRCDIR/scripts/CloneWithSuffix.js</parameter>
       <parameter id="md5sum">59639461256b92c84cc82abf11848c3e</parameter>
@@ -629,36 +604,45 @@ g;</parameter>
       <table id="outputData" rows="0"/>
    </instance>
    <instance class="NoiseXTerminator" version="256" id="NoiseX_tweak_SHO_instance">
-      <parameter id="ai_file">NoiseXTerminator.3.mlpackage</parameter>
+      <parameter id="ml_version" value="0"/>
+      <parameter id="denoise" value="0.90"/>
       <parameter id="enable_color_separation" value="true"/>
       <parameter id="enable_frequency_separation" value="true"/>
-      <parameter id="denoise" value="0.90"/>
+      <parameter id="denoise_intensity" value="0.90"/>
       <parameter id="denoise_color" value="0.90"/>
-      <parameter id="denoise_lf" value="0.9"/>
-      <parameter id="denoise_lf_color" value="0.9"/>
+      <parameter id="denoise_high_freq" value="0.90"/>
+      <parameter id="denoise_low_freq" value="0.90"/>
+      <parameter id="denoise_intensity_high_freq" value="0.90"/>
+      <parameter id="denoise_intensity_low_freq" value="0.90"/>
+      <parameter id="denoise_color_high_freq" value="0.90"/>
+      <parameter id="denoise_color_low_freq" value="0.90"/>
       <parameter id="frequency_scale" value="5.0"/>
       <parameter id="iterations" value="2"/>
       <parameter id="detail" value="0.15"/>
+      <parameter id="overlap" value="0.20"/>
    </instance>
    <instance class="StarXTerminator" version="256" id="StarX_SHO_instance">
-      <parameter id="ai_file">StarXTerminator.11.mlpackage</parameter>
-      <parameter id="stars" value="true"/>
+      <parameter id="ml_version" value="1e+01"/>
+      <parameter id="output_stars" value="true"/>
       <parameter id="unscreen" value="true"/>
+      <parameter id="remove_stars" value="true"/>
+      <parameter id="remove_spikes" value="true"/>
+      <parameter id="remove_aureoles" value="true"/>
+      <parameter id="remove_reflections" value="false"/>
       <parameter id="overlap" value="0.20"/>
    </instance>
    <instance class="ProcessContainer" id="for_each_SHO__ADD_CROP_instance">
       <instance class="BlurXTerminator" version="256" enabled="true">
          <time start="2025-01-21T14:26:54.406Z" span="30.226267"/>
-         <parameter id="ai_file">BlurXTerminator.4.mlpackage</parameter>
+         <parameter id="ml_version" value="4"/>
          <parameter id="correct_only" value="false"/>
-         <parameter id="correct_first" value="false"/>
-         <parameter id="nonstellar_then_stellar" value="false"/>
-         <parameter id="lum_only" value="false"/>
          <parameter id="sharpen_stars" value="0.50"/>
-         <parameter id="adjust_halos" value="0.00"/>
-         <parameter id="nonstellar_psf_diameter" value="0.00"/>
+         <parameter id="adjust_star_halos" value="0.00"/>
+         <parameter id="nonstellar_diameter" value="0.0"/>
          <parameter id="auto_nonstellar_psf" value="true"/>
          <parameter id="sharpen_nonstellar" value="0.50"/>
+         <parameter id="lunar_planetary" value="false"/>
+         <parameter id="overlap" value="0.20"/>
       </instance>
       <instance class="GradientCorrection" version="1" enabled="true">
          <parameter id="reference" value="0.50"/>
@@ -687,16 +671,22 @@ g;</parameter>
          <parameter id="gridSamplingDelta" value="16"/>
       </instance>
       <instance class="NoiseXTerminator" version="256" enabled="true">
-         <parameter id="ai_file">NoiseXTerminator.3.mlpackage</parameter>
+         <parameter id="ml_version" value="0"/>
+         <parameter id="denoise" value="0.90"/>
          <parameter id="enable_color_separation" value="true"/>
          <parameter id="enable_frequency_separation" value="true"/>
-         <parameter id="denoise" value="0.90"/>
+         <parameter id="denoise_intensity" value="0.90"/>
          <parameter id="denoise_color" value="0.90"/>
-         <parameter id="denoise_lf" value="0.9"/>
-         <parameter id="denoise_lf_color" value="0.9"/>
+         <parameter id="denoise_high_freq" value="0.90"/>
+         <parameter id="denoise_low_freq" value="0.90"/>
+         <parameter id="denoise_intensity_high_freq" value="0.90"/>
+         <parameter id="denoise_intensity_low_freq" value="0.90"/>
+         <parameter id="denoise_color_high_freq" value="0.90"/>
+         <parameter id="denoise_color_low_freq" value="0.90"/>
          <parameter id="frequency_scale" value="5.0"/>
          <parameter id="iterations" value="2"/>
          <parameter id="detail" value="0.15"/>
+         <parameter id="overlap" value="0.20"/>
       </instance>
       <instance class="Script" version="256" enabled="true">
          <time start="2025-01-21T14:27:44.104Z" span="0.94340279"/>
@@ -715,9 +705,13 @@ g;</parameter>
          <parameter id="information"></parameter>
       </instance>
       <instance class="StarXTerminator" version="256" enabled="true">
-         <parameter id="ai_file">StarXTerminator.11.mlpackage</parameter>
-         <parameter id="stars" value="true"/>
+         <parameter id="ml_version" value="1e+01"/>
+         <parameter id="output_stars" value="true"/>
          <parameter id="unscreen" value="true"/>
+         <parameter id="remove_stars" value="true"/>
+         <parameter id="remove_spikes" value="true"/>
+         <parameter id="remove_aureoles" value="true"/>
+         <parameter id="remove_reflections" value="false"/>
          <parameter id="overlap" value="0.20"/>
       </instance>
       <instance class="Script" version="256" enabled="true">
@@ -733,31 +727,30 @@ g;</parameter>
          <parameter id="information"></parameter>
       </instance>
    </instance>
-   <icon id="LumMaskForStarless" instance="LumMaskForStarless_instance" xpos="2285" ypos="728" workspace="Workspace01"/>
-   <icon id="HDR_MX_MAYBE" instance="HDR_MX_MAYBE_instance" xpos="2285" ypos="755" workspace="Workspace01"/>
-   <icon id="LocalHistEQ_TWEAK" instance="LocalHistEQ_TWEAK_instance" xpos="2285" ypos="782" workspace="Workspace01"/>
-   <icon id="Scripts_utilities_DSE" instance="Scripts_utilities_DSE_instance" xpos="2285" ypos="701" workspace="Workspace01"/>
+   <icon id="LumMaskForStarless" instance="LumMaskForStarless_instance" xpos="2285" ypos="701" workspace="Workspace01"/>
+   <icon id="HDR_MX_MAYBE" instance="HDR_MX_MAYBE_instance" xpos="2285" ypos="728" workspace="Workspace01"/>
+   <icon id="LocalHistEQ_TWEAK" instance="LocalHistEQ_TWEAK_instance" xpos="2285" ypos="755" workspace="Workspace01"/>
+   <icon id="Scripts_utilities_DSE" instance="Scripts_utilities_DSE_instance" xpos="2285" ypos="674" workspace="Workspace01"/>
    <icon id="SHO_Gradient_Removal" instance="SHO_Gradient_Removal_instance" xpos="2285" ypos="296" workspace="Workspace01"/>
-   <icon id="NB_Combine" instance="NB_Combine_instance" xpos="2285" ypos="485" workspace="Workspace01"/>
+   <icon id="NB_Combine" instance="NB_Combine_instance" xpos="2285" ypos="458" workspace="Workspace01"/>
    <icon id="__SHO_workflow__" instance="__SHO_workflow___instance" xpos="2285" ypos="215" workspace="Workspace01"/>
-   <icon id="SHO_AppendStarless" instance="SHO_AppendStarless_instance" xpos="2285" ypos="647" workspace="Workspace01"/>
-   <icon id="ScreenStars_PixelMath" instance="ScreenStars_PixelMath_instance" xpos="2285" ypos="863" workspace="Workspace01"/>
-   <icon id="GC_each_SHO" instance="GC_each_SHO_instance" xpos="2285" ypos="350" workspace="Workspace01"/>
+   <icon id="SHO_AppendStarless" instance="SHO_AppendStarless_instance" xpos="2285" ypos="620" workspace="Workspace01"/>
+   <icon id="ScreenStars_PixelMath" instance="ScreenStars_PixelMath_instance" xpos="2285" ypos="836" workspace="Workspace01"/>
+   <icon id="GC_each_SHO" instance="GC_each_SHO_instance" xpos="2285" ypos="323" workspace="Workspace01"/>
    <icon id="SHO_BlurX_Full" instance="SHO_BlurX_Full_instance" xpos="2285" ypos="269" workspace="Workspace01"/>
-   <icon id="NarrowbandNormalization" instance="NarrowbandNormalization_instance" xpos="2285" ypos="620" workspace="Workspace01"/>
-   <icon id="CurvesForColorAndSat" instance="CurvesForColorAndSat_instance" xpos="2285" ypos="809" workspace="Workspace01"/>
-   <icon id="ConvertTheGreen" instance="ConvertTheGreen_instance" xpos="2285" ypos="890" workspace="Workspace01"/>
-   <icon id="GHS_for_SHO_starless" instance="GHS_for_SHO_starless_instance" xpos="2285" ypos="674" workspace="Workspace01"/>
-   <icon id="ScreenStars_BLEND_OR" instance="ScreenStars_BLEND_OR_instance" xpos="2285" ypos="836" workspace="Workspace01"/>
-   <icon id="SHO_combo_PM" instance="SHO_combo_PM_instance" xpos="2285" ypos="512" workspace="Workspace01"/>
-   <icon id="ABE_each_SHO" instance="ABE_each_SHO_instance" xpos="2285" ypos="323" workspace="Workspace01"/>
-   <icon id="CloneNB_linear" instance="CloneNB_linear_instance" xpos="2285" ypos="404" workspace="Workspace01"/>
-   <icon id="CloneNB_stars" instance="CloneNB_stars_instance" xpos="2285" ypos="458" workspace="Workspace01"/>
-   <icon id="HOO_combo" instance="HOO_combo_instance" xpos="2285" ypos="539" workspace="Workspace01"/>
-   <icon id="SHO_combo_PM_A" instance="SHO_combo_PM_A_instance" xpos="2285" ypos="566" workspace="Workspace01"/>
-   <icon id="SHO_image_list" instance="SHO_image_list_instance" xpos="2285" ypos="917" workspace="Workspace01"/>
-   <icon id="SHO_combo_PM_B" instance="SHO_combo_PM_B_instance" xpos="2285" ypos="593" workspace="Workspace01"/>
-   <icon id="NoiseX_tweak_SHO" instance="NoiseX_tweak_SHO_instance" xpos="2285" ypos="377" workspace="Workspace01"/>
-   <icon id="StarX_SHO" instance="StarX_SHO_instance" xpos="2285" ypos="431" workspace="Workspace01"/>
+   <icon id="NarrowbandNormalization" instance="NarrowbandNormalization_instance" xpos="2285" ypos="593" workspace="Workspace01"/>
+   <icon id="CurvesForColorAndSat" instance="CurvesForColorAndSat_instance" xpos="2285" ypos="782" workspace="Workspace01"/>
+   <icon id="ConvertTheGreen" instance="ConvertTheGreen_instance" xpos="2285" ypos="863" workspace="Workspace01"/>
+   <icon id="GHS_for_SHO_starless" instance="GHS_for_SHO_starless_instance" xpos="2285" ypos="647" workspace="Workspace01"/>
+   <icon id="ScreenStars_BLEND_OR" instance="ScreenStars_BLEND_OR_instance" xpos="2285" ypos="809" workspace="Workspace01"/>
+   <icon id="SHO_combo_PM" instance="SHO_combo_PM_instance" xpos="2285" ypos="485" workspace="Workspace01"/>
+   <icon id="CloneNB_linear" instance="CloneNB_linear_instance" xpos="2285" ypos="377" workspace="Workspace01"/>
+   <icon id="CloneNB_stars" instance="CloneNB_stars_instance" xpos="2285" ypos="431" workspace="Workspace01"/>
+   <icon id="HOO_combo" instance="HOO_combo_instance" xpos="2285" ypos="512" workspace="Workspace01"/>
+   <icon id="SHO_combo_PM_A" instance="SHO_combo_PM_A_instance" xpos="2285" ypos="539" workspace="Workspace01"/>
+   <icon id="SHO_image_list" instance="SHO_image_list_instance" xpos="2285" ypos="890" workspace="Workspace01"/>
+   <icon id="SHO_combo_PM_B" instance="SHO_combo_PM_B_instance" xpos="2285" ypos="566" workspace="Workspace01"/>
+   <icon id="NoiseX_tweak_SHO" instance="NoiseX_tweak_SHO_instance" xpos="2285" ypos="350" workspace="Workspace01"/>
+   <icon id="StarX_SHO" instance="StarX_SHO_instance" xpos="2285" ypos="404" workspace="Workspace01"/>
    <icon id="for_each_SHO__ADD_CROP" instance="for_each_SHO__ADD_CROP_instance" xpos="2285" ypos="242" workspace="Workspace01"/>
 </xpsm>
