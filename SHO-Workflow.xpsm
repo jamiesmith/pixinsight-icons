@@ -3,7 +3,7 @@
 ********************************************************************
 PixInsight XML Process Serialization Module - XPSM 1.0
 ********************************************************************
-Generated on 2026-09-03T11:28:07.421Z
+Generated on 2026-09-03T12:58:15.445Z
 PixInsight Core 1.9.4 (x64)
 Copyright (c) 2003-2026 Pleiades Astrophoto
 ********************************************************************
@@ -621,17 +621,34 @@ g;</parameter>
       <parameter id="detail" value="0.15"/>
       <parameter id="overlap" value="0.20"/>
    </instance>
-   <instance class="StarXTerminator" version="256" id="StarX_SHO_instance">
-      <parameter id="ml_version" value="1e+01"/>
-      <parameter id="output_stars" value="true"/>
-      <parameter id="unscreen" value="true"/>
-      <parameter id="remove_stars" value="true"/>
-      <parameter id="remove_spikes" value="true"/>
-      <parameter id="remove_aureoles" value="true"/>
-      <parameter id="remove_reflections" value="false"/>
-      <parameter id="overlap" value="0.20"/>
-   </instance>
    <instance class="ProcessContainer" id="for_each_SHO__ADD_CROP_instance">
+      <instance class="DynamicCrop" version="2" enabled="true">
+         <parameter id="refWidth" value="9576"/>
+         <parameter id="refHeight" value="6388"/>
+         <parameter id="outWidth" value="9336.00"/>
+         <parameter id="outHeight" value="6178.00"/>
+         <parameter id="centerX" value="0.50313283"/>
+         <parameter id="centerY" value="0.50000000"/>
+         <parameter id="width" value="0.97493734"/>
+         <parameter id="height" value="0.96712586"/>
+         <parameter id="angle" value="0.0000000000"/>
+         <parameter id="scaleX" value="1.00000000"/>
+         <parameter id="scaleY" value="1.00000000"/>
+         <parameter id="optimizeFast" value="true"/>
+         <parameter id="interpolation" value="Auto"/>
+         <parameter id="clampingThreshold" value="0.30"/>
+         <parameter id="smoothness" value="1.50"/>
+         <parameter id="gammaCorrection" value="false"/>
+         <parameter id="xResolution" value="72.000"/>
+         <parameter id="yResolution" value="72.000"/>
+         <parameter id="metric" value="false"/>
+         <parameter id="forceResolution" value="false"/>
+         <parameter id="red" value="0.000000"/>
+         <parameter id="green" value="0.000000"/>
+         <parameter id="blue" value="0.000000"/>
+         <parameter id="alpha" value="1.000000"/>
+         <parameter id="noGUIMessages" value="false"/>
+      </instance>
       <instance class="BlurXTerminator" version="256" enabled="true">
          <time start="2025-01-21T14:26:54.406Z" span="30.226267"/>
          <parameter id="ml_version" value="4"/>
@@ -705,7 +722,7 @@ g;</parameter>
          <parameter id="information"></parameter>
       </instance>
       <instance class="StarXTerminator" version="256" enabled="true">
-         <parameter id="ml_version" value="1e+01"/>
+         <parameter id="ml_version" value="0"/>
          <parameter id="output_stars" value="true"/>
          <parameter id="unscreen" value="true"/>
          <parameter id="remove_stars" value="true"/>
@@ -726,6 +743,16 @@ g;</parameter>
          </table>
          <parameter id="information"></parameter>
       </instance>
+   </instance>
+   <instance class="StarXTerminator" version="256" id="StarX_SHO_instance">
+      <parameter id="ml_version" value="0"/>
+      <parameter id="output_stars" value="true"/>
+      <parameter id="unscreen" value="true"/>
+      <parameter id="remove_stars" value="true"/>
+      <parameter id="remove_spikes" value="true"/>
+      <parameter id="remove_aureoles" value="true"/>
+      <parameter id="remove_reflections" value="false"/>
+      <parameter id="overlap" value="0.20"/>
    </instance>
    <icon id="LumMaskForStarless" instance="LumMaskForStarless_instance" xpos="2285" ypos="701" workspace="Workspace01"/>
    <icon id="HDR_MX_MAYBE" instance="HDR_MX_MAYBE_instance" xpos="2285" ypos="728" workspace="Workspace01"/>
@@ -751,6 +778,6 @@ g;</parameter>
    <icon id="SHO_image_list" instance="SHO_image_list_instance" xpos="2285" ypos="890" workspace="Workspace01"/>
    <icon id="SHO_combo_PM_B" instance="SHO_combo_PM_B_instance" xpos="2285" ypos="566" workspace="Workspace01"/>
    <icon id="NoiseX_tweak_SHO" instance="NoiseX_tweak_SHO_instance" xpos="2285" ypos="350" workspace="Workspace01"/>
-   <icon id="StarX_SHO" instance="StarX_SHO_instance" xpos="2285" ypos="404" workspace="Workspace01"/>
    <icon id="for_each_SHO__ADD_CROP" instance="for_each_SHO__ADD_CROP_instance" xpos="2285" ypos="242" workspace="Workspace01"/>
+   <icon id="StarX_SHO" instance="StarX_SHO_instance" xpos="2285" ypos="404" workspace="Workspace01"/>
 </xpsm>
