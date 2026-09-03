@@ -837,14 +837,14 @@ Copyright (c) 2003-2026 Pleiades Astrophoto
          <parameter id="information"></parameter>
       </instance>
       <instance class="StarXTerminator" version="256" enabled="true">
-         <parameter id="ml_version" value="0"/>
-         <parameter id="output_stars" value="true"/>
-         <parameter id="unscreen" value="true"/>
-         <parameter id="remove_stars" value="true"/>
-         <parameter id="remove_spikes" value="true"/>
-         <parameter id="remove_aureoles" value="true"/>
-         <parameter id="remove_reflections" value="false"/>
-         <parameter id="overlap" value="0.20"/>
+      <parameter id="ml_version" value="0"/>
+      <parameter id="output_stars" value="true"/>
+      <parameter id="unscreen" value="true"/>
+      <parameter id="remove_stars" value="true"/>
+      <parameter id="remove_spikes" value="true"/>
+      <parameter id="remove_aureoles" value="true"/>
+      <parameter id="remove_reflections" value="false"/>
+      <parameter id="overlap" value="0.20"/>
       </instance>
       <instance class="Script" version="256" enabled="true">
          <time start="2025-02-06T15:56:45.962Z" span="1.0473813"/>
